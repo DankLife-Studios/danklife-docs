@@ -10,13 +10,13 @@ import pearlsImg from './assets/pearls.png';
 import upnatomsImg from './assets/upnatom.png';
 
 export const DANK_SCRIPTS = [
-  {
-    image: chowhubImg,
-    title: 'Chowhub',
-    description: 'Chowhub revolutionizes food ordering in your city. With customizable menus and seamless integration, satisfy your cravings with ease.',
-    escrowLink: "https://danklife-gaming-studios-script.tebex.io/package/5917886",
-    opensourceLink: '',
-  },
+//   {
+//     image: chowhubImg,
+//     title: 'Chowhub',
+//     description: 'Chowhub revolutionizes food ordering in your city. With customizable menus and seamless integration, satisfy your cravings with ease.',
+//     escrowLink: "https://danklife-gaming-studios-script.tebex.io/package/5917886",
+//     opensourceLink: '',
+//   },
   {
     image: burgershotImg,
     title: 'Burgershot',
@@ -7855,228 +7855,223 @@ for k,_ in pairs(Config.ConsumablesDonuts) do
 end`,
     textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
     codeSix: `RegisterNetEvent("consumables:client:Uwububbleteablueberry", function(itemName)
-  TriggerEvent('animations:client:EmoteCommandStart', {"bubbletea"})
-  QBCore.Functions.Progressbar("drink_something", "Popping some Bubble Tea..", 5500, false, true, {
-      disableMovement = false,
-      disableCarMovement = false,
-      disableMouse = false,
-      disableCombat = true,
-  }, {}, {}, {}, function() -- Done
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
-      TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + Config.ConsumablesTea[itemName])
-      TriggerServerEvent('hud:server:RelieveStress', math.random(5, 10))
-      action = false
-  end, function() -- Cancel
-      TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      QBCore.Functions.Notify("Cancelled..", "error")
-  end)
+    TriggerEvent('animations:client:EmoteCommandStart', {"bubbletea"})
+    QBCore.Functions.Progressbar("drink_something", "Popping some Bubble Tea..", 5500, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+        disableMouse = false,
+        disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
+        TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + Config.ConsumablesTea[itemName])
+        TriggerServerEvent('hud:server:RelieveStress', math.random(5, 10))
+        action = false
+    end, function() -- Cancel
+        TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        QBCore.Functions.Notify("Cancelled..", "error")
+    end)
 end)
   
 RegisterNetEvent("consumables:client:uwumisosoup", function(itemName)
-  TriggerEvent('animations:client:EmoteCommandStart', {"misosoup"})
-  QBCore.Functions.Progressbar("drink_something", "Sipping some Soup..", 5500, false, true, {
-      disableMovement = false,
-      disableCarMovement = false,
-      disableMouse = false,
-      disableCombat = true,
-  }, {}, {}, {}, function() -- Done
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
-      TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuSoup[itemName])
-      TriggerServerEvent('hud:server:RelieveStress', math.random(4, 8))
-      HealOxy()
-      action = false
-  end, function() -- Cancel
-      TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      QBCore.Functions.Notify("Cancelled..", "error")
-  end)
+    TriggerEvent('animations:client:EmoteCommandStart', {"misosoup"})
+    QBCore.Functions.Progressbar("drink_something", "Sipping some Soup..", 5500, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+        disableMouse = false,
+        disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
+        TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuSoup[itemName])
+        TriggerServerEvent('hud:server:RelieveStress', math.random(4, 8))
+        HealOxy()
+        action = false
+    end, function() -- Cancel
+        TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        QBCore.Functions.Notify("Cancelled..", "error")
+    end)
 end)
 
 RegisterNetEvent("consumables:client:Uwubudhabowl", function(itemName)
-  TriggerEvent('animations:client:EmoteCommandStart', {"budhabowl"})
-  QBCore.Functions.Progressbar("eat_something", "Banging a bowl of goodness..", 5500, false, true, {
-      disableMovement = false,
-      disableCarMovement = false,
-      disableMouse = false,
-      disableCombat = true,
-  }, {}, {}, {}, function() -- Done
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
-      TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuBowl[itemName])
-      TriggerServerEvent('hud:server:RelieveStress', math.random(4, 10))
-      HealOxy()
-      action = false
-  end, function() -- Cancel
-      TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      QBCore.Functions.Notify("Cancelled..", "error")
-  end)
+    TriggerEvent('animations:client:EmoteCommandStart', {"budhabowl"})
+    QBCore.Functions.Progressbar("eat_something", "Banging a bowl of goodness..", 5500, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+        disableMouse = false,
+        disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
+        TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuBowl[itemName])
+        TriggerServerEvent('hud:server:RelieveStress', math.random(4, 10))
+        HealOxy()
+        action = false
+    end, function() -- Cancel
+        TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        QBCore.Functions.Notify("Cancelled..", "error")
+    end)
 end)
 
 RegisterNetEvent("consumables:client:Uwusandy", function(itemName)
-  TriggerEvent('animations:client:EmoteCommandStart', {"uwusandy"})
-  QBCore.Functions.Progressbar("eat_something", "uWu Icecream Mmm..", 5500, false, true, {
-      disableMovement = false,
-      disableCarMovement = false,
-      disableMouse = false,
-      disableCombat = true,
-  }, {}, {}, {}, function() -- Done
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
-      TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuSandy[itemName])
-      TriggerServerEvent('hud:server:RelieveStress', math.random(5, 10))
-      action = false
-  end, function() -- Cancel
-      TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      QBCore.Functions.Notify("Cancelled..", "error")
-  end)
+    TriggerEvent('animations:client:EmoteCommandStart', {"uwusandy"})
+    QBCore.Functions.Progressbar("eat_something", "uWu Icecream Mmm..", 5500, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+        disableMouse = false,
+        disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
+        TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuSandy[itemName])
+        TriggerServerEvent('hud:server:RelieveStress', math.random(5, 10))
+        action = false
+    end, function() -- Cancel
+        TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        QBCore.Functions.Notify("Cancelled..", "error")
+    end)
 end)
 
 RegisterNetEvent("consumables:client:Donut", function(itemName)
-  TriggerEvent('animations:client:EmoteCommandStart', {"donut"})
-  QBCore.Functions.Progressbar("eat_something", "Eating..", 5000, false, true, {
-      disableMovement = false,
-      disableCarMovement = false,
-      disableMouse = false,
-      disableCombat = true,
-  }, {}, {}, {}, function() -- Done
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
-      TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.Config.ConsumablesDonuts[itemName])
-      TriggerServerEvent('hud:server:RelieveStress', math.random(2, 4))
-  end, function() -- Cancel
-      TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
-      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-      QBCore.Functions.Notify("Cancelled..", "error")
-  end)
+    TriggerEvent('animations:client:EmoteCommandStart', {"donut"})
+    QBCore.Functions.Progressbar("eat_something", "Eating..", 5000, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+        disableMouse = false,
+        disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
+        TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.Config.ConsumablesDonuts[itemName])
+        TriggerServerEvent('hud:server:RelieveStress', math.random(2, 4))
+    end, function() -- Cancel
+        TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        QBCore.Functions.Notify("Cancelled..", "error")
+    end)
 end)`,
     textSeven: 'You need add these prop emotes to dpemotes/client/animationlist.lua under DP.PropEmotes = {',
     codeSeven: `["bubbletea"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
-    {
-       Prop = 'apa_prop_cs_plastic_cup_01',
-       PropBone = 28422,
-       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
-       EmoteLoop = true,
-       EmoteMoving = true,
-    }},
+{
+   Prop = 'apa_prop_cs_plastic_cup_01',
+   PropBone = 28422,
+   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+   EmoteLoop = true,
+   EmoteMoving = true,
+}},
 
-    ["misosoup"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
-    {
-       Prop = 'v_ret_247_noodle1',
-       PropBone = 28422,
-       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
-       EmoteLoop = true,
-       EmoteMoving = true, 
-    }},
+["misosoup"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
+{
+   Prop = 'v_ret_247_noodle1',
+   PropBone = 28422,
+   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+   EmoteLoop = true,
+   EmoteMoving = true, 
+}},
 
-    ["uwusandy"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "", AnimationOptions =
-    {
-       Prop = 'ng_proc_food_ornge1a',
-       PropBone = 18905,
-       PropPlacement = {0.13, 0.05, 0.02, -50.0, 16.0, 60.0},
-       EmoteMoving = true,
-    }},
+["uwusandy"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "", AnimationOptions =
+{
+   Prop = 'ng_proc_food_ornge1a',
+   PropBone = 18905,
+   PropPlacement = {0.13, 0.05, 0.02, -50.0, 16.0, 60.0},
+   EmoteMoving = true,
+}},
 
-    ["budhabowl"] = {"anim@scripted@island@special_peds@pavel@hs4_pavel_ig5_caviar_p1", "base_idle", "", AnimationOptions =
-    {
-      Prop = "prop_cs_bowl_01b",
-      PropBone = 60309,
-      PropPlacement = {0.0, 0.0300, 0.0100, 0.0, 0.0, 0.0},
-      SecondProp = 'h4_prop_h4_caviar_spoon_01a',
-      SecondPropBone = 28422,
-      SecondPropPlacement = {0.0,0.0,0.0,0.0,0.0,0.0},
-      EmoteLoop = true,
-      EmoteMoving = true,
-    }},
+["budhabowl"] = {"anim@scripted@island@special_peds@pavel@hs4_pavel_ig5_caviar_p1", "base_idle", "", AnimationOptions =
+{
+  Prop = "prop_cs_bowl_01b",
+  PropBone = 60309,
+  PropPlacement = {0.0, 0.0300, 0.0100, 0.0, 0.0, 0.0},
+  SecondProp = 'h4_prop_h4_caviar_spoon_01a',
+  SecondPropBone = 28422,
+  SecondPropPlacement = {0.0,0.0,0.0,0.0,0.0,0.0},
+  EmoteLoop = true,
+  EmoteMoving = true,
+}},
 
-    ["uwupurpleplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwupurpleplush", AnimationOptions =
-    {
-        Prop = 818790301,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwupurpleplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwupurpleplush", AnimationOptions =
+{
+    Prop = 818790301,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwugreenplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwugreenplush", AnimationOptions =
-    {
-        Prop = 1393952729,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwugreenplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwugreenplush", AnimationOptions =
+{
+    Prop = 1393952729,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwublueplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwublueplush", AnimationOptions =
-    {
-        Prop = 2001522426,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwublueplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwublueplush", AnimationOptions =
+{
+    Prop = 2001522426,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwubrownplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwubrownplush", AnimationOptions =
-    {
-        Prop = 1943054478,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwubrownplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwubrownplush", AnimationOptions =
+{
+    Prop = 1943054478,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwuyellowplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwuyellowplush", AnimationOptions =
-    {
-        Prop = 1640596832,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwuyellowplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwuyellowplush", AnimationOptions =
+{
+    Prop = 1640596832,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwuredplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwuredplush", AnimationOptions =
-    {
-        Prop = 968344509,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwuredplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwuredplush", AnimationOptions =
+{
+    Prop = 968344509,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwugreenhgplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwugreenhgplush", AnimationOptions =
-    {
-        Prop = 1354790032,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
+["uwugreenhgplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwugreenhgplush", AnimationOptions =
+{
+    Prop = 1354790032,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},
 
-    ["uwupinkhgplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwupinkhgplush", AnimationOptions =
-    {
-        Prop = 1351790032,
-        PropBone = 24817,
-        PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
-        EmoteMoving = true,
-        EmoteLoop = true
-    }},
-    `,
+["uwupinkhgplush"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "uwupinkhgplush", AnimationOptions =
+{
+    Prop = 1351790032,
+    PropBone = 24817,
+    PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+    EmoteMoving = true,
+    EmoteLoop = true
+}},`,
     textEight:'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeEight: `
-    ['uwu'] = {
-      vector3(-577.5565, -1067.565, 26.614078),
-    },
-    `,
+    codeEight: `['uwu'] = {
+  vector3(-577.5565, -1067.565, 26.614078),
+},`,
     textNine:'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeNine: `
-    ['uwu'] = {
-      { coords = vector3(-578.36, -1066.95, 26.614078), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.33, maxZ = 27.38 },
-    },
-    `,
+    codeNine: `['uwu'] = {
+  { coords = vector3(-578.36, -1066.95, 26.614078), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.33, maxZ = 27.38 },
+},`,
     textTen: undefined,
     codeTen: undefined,
   },
