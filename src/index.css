@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: radial-gradient(#280a48, #20043d);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+}
+
+#core-concepts {
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: #1405249c;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+main h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 1.5rem 0;
+  color: #fff;
+  text-shadow:
+      0 0 10px #edededa6;
+}
+
+#core-concepts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#core-concepts a {
+  color: #6600cc;
+  text-decoration: none;
+}
+
+#core-concepts button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 0.5rem;
+}
+
+
+#core-concepts button:hover {
+  background-color: #1b082f;
+  color: #ebe7ef;
+}
+
+#core-concepts button.active {
+  background-color: #6600cc;
+  color: #ebe7ef;
+}
+
+#core-concepts li {
+  width: 15rem;
+  text-align: center;
+}
+
+#core-concepts li img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#core-concepts li h3 {
+  margin: 0.5rem 0;
+}
+
+#core-concepts li p {
+  font-size: 0.9rem;
+}
+
+#guide {
+  margin: 3rem auto;
+}
+
+#guide h2 {
+  text-align: center;
+}
+
+#guide menu {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+#guide menu button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#guide menu button:hover {
+  background-color: #1b082f;
+  color: #ebe7ef;
+}
+
+#guide menu button.active {
+  background-color: #6600cc;
+  color: #ebe7ef;
+}
+
+#tab-content-two {
+  padding: 1rem;
+  border-radius: 1em;
+  background-color: #6600cc21;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#tab-content {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #6600cc21;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#tab-content h3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#tab-content p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#tab-content code {
+  font-size: 1rem;
+}
