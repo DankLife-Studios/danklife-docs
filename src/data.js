@@ -8146,11 +8146,11 @@ cluckin_box             = {name = 'cluckin_box',            label = 'Cluckin Mea
 ['cluckin_sprunk'] = math.random(45, 65),
       `,
         textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-        codeFive: `['burgershot'] = {
+        codeFive: `['cluckin'] = {
   vector3(-1198.14, -897.63, 13.79),
 },`,
         textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-        codeSix: `['burgershot'] = {
+        codeSix: `['cluckin'] = {
     { coords = vector3(-1198.46, -898.48, 13.79), length = 1.0, width = 1.0, heading = 351.0, minZ = 13.61, maxZ = 14.08 },
 },`,
         textSeven: undefined,
