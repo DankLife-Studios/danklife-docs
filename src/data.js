@@ -10,83 +10,90 @@ import pearlsImg from './assets/pearls.png';
 import upnatomsImg from './assets/upnatom.png';
 
 export const DANK_SCRIPTS = [
-  {
-    image: chowhubImg,
-    title: 'Chowhub - Addon - Free With Purchase of any Restaurant',
-    description: 'Chowhub revolutionizes food ordering in your city. With customizable menus and seamless integration, satisfy your cravings with ease.',
-    escrowLink: "https://danklife-gaming-studios-script.tebex.io/package/5917886",
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140060',
-  },
-  {
-    image: burgershotImg,
-    title: 'Burgershot',
-    description: 'Welcome to Burgershot, where you craft more than just burgers, you build a culinary empire. Manage every aspect of your restaurant and become the burger tycoon of your dreams.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/4579084',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140046',
-  },
-  {
-    image: uwuImg,
-    title: 'Uwu Cafe',
-    description: 'Indulge in the cozy ambiance of Uwu Cafe, where every sip and bite is infused with warmth and comfort. Join us for a delightful experience thats as unique as you are.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140049',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/4868360',
-  },
-  {
-    image: pizzathisImg,
-    title: 'Pizza This',
-    description: 'Pizza This isn\'t just about pizza its about crafting memories one slice at a time. Join our team and deliver happiness to every doorstep in the city.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/4778617',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140052',
-  },
-  {
-    image: pearlsImg,
-    title: 'Pearls',
-    description: 'Dive into the exquisite world of Pearls, where each dish is a masterpiece and every customer is treated like royalty. Experience culinary elegance like never before.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/4835786',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140059',
-  },
-  {
-    image: upnatomsImg,
-    title: 'Up N Atoms',
-    description: 'Fuel up your day with Up N Atoms, the ultimate destination for quick bites and energy-packed meals. Join us in serving the city with a dose of vitality and flavor.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/5929387',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140054',
-  },
-  {
-    image: hornysImg,
-    title: 'Hornys',
-    description: 'At Hornys, we\'re passionate about good food and good times. Join our team and be a part of the excitement as we redefine the dining experience in your city.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140047',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/5933696',
-  },
-  {
-    image: bahamaImg,
-    title: 'Bahama Mama',
-    description: 'Escape to paradise at Bahama Mama, where tropical flavors and laid-back vibes transport you to a world of relaxation. Join us in spreading the spirit of aloha to all.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/5317284',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140056',
-  },
-  {
-    image: beanmachineImg,
-    title: 'BeanMachine',
-    description: 'BeanMachine isn\'t just a coffee shop, its a community hub where connections are brewed over steaming cups of joe. Join us in fostering camaraderie and caffeine-fueled conversations.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/5082251',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140058',
-  },
-  {
-    image: koiImg,
-    title: 'Koi',
-    description: 'Immerse yourself in the tranquil oasis of Koi, where every dish is a work of art and every moment is savored. Join us in creating unforgettable dining experiences for all who visit.',
-    escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140061',
-    opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140062',
-  },
+    {
+        image: chowhubImg,
+        title: 'Chowhub - Addon - Free With Purchase of any Restaurant',
+        description: 'Chowhub revolutionizes food ordering in your city. With customizable menus and seamless integration, satisfy your cravings with ease.',
+        escrowLink: "https://danklife-gaming-studios-script.tebex.io/package/5917886",
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140060',
+    },
+    {
+        image: burgershotImg,
+        title: 'Burgershot',
+        description: 'Welcome to Burgershot, where you craft more than just burgers, you build a culinary empire. Manage every aspect of your restaurant and become the burger tycoon of your dreams.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/4579084',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140046',
+    },
+    {
+        image: uwuImg,
+        title: 'Uwu Cafe',
+        description: 'Indulge in the cozy ambiance of Uwu Cafe, where every sip and bite is infused with warmth and comfort. Join us for a delightful experience thats as unique as you are.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140049',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/4868360',
+    },
+    {
+        image: pizzathisImg,
+        title: 'Pizza This',
+        description: 'Pizza This isn\'t just about pizza its about crafting memories one slice at a time. Join our team and deliver happiness to every doorstep in the city.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/4778617',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140052',
+    },
+    {
+        image: pearlsImg,
+        title: 'Pearls',
+        description: 'Dive into the exquisite world of Pearls, where each dish is a masterpiece and every customer is treated like royalty. Experience culinary elegance like never before.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/4835786',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140059',
+    },
+    {
+        image: upnatomsImg,
+        title: 'Up N Atoms',
+        description: 'Fuel up your day with Up N Atoms, the ultimate destination for quick bites and energy-packed meals. Join us in serving the city with a dose of vitality and flavor.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/5929387',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140054',
+    },
+    {
+        image: hornysImg,
+        title: 'Hornys',
+        description: 'At Hornys, we\'re passionate about good food and good times. Join our team and be a part of the excitement as we redefine the dining experience in your city.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140047',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/5933696',
+    },
+    {
+        image: bahamaImg,
+        title: 'Bahama Mama',
+        description: 'Escape to paradise at Bahama Mama, where tropical flavors and laid-back vibes transport you to a world of relaxation. Join us in spreading the spirit of aloha to all.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/5317284',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140056',
+    },
+    {
+        image: beanmachineImg,
+        title: 'BeanMachine',
+        description: 'BeanMachine isn\'t just a coffee shop, its a community hub where connections are brewed over steaming cups of joe. Join us in fostering camaraderie and caffeine-fueled conversations.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/5082251',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140058',
+    },
+    {
+        image: koiImg,
+        title: 'Koi',
+        description: 'Immerse yourself in the tranquil oasis of Koi, where every dish is a work of art and every moment is savored. Join us in creating unforgettable dining experiences for all who visit.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140061',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6140062',
+    },
+    {
+        image: cluckinImg,
+        title: 'Cluckin Bell - Coming soon',
+        description: 'Immerse yourself in the tranquil oasis of Koi, where every dish is a work of art and every moment is savored. Join us in creating unforgettable dining experiences for all who visit.',
+        escrowLink: '',
+        opensourceLink: '',
+    },
 ];
 
 export const INSTALLGUIDE = {
-  bahama: {
-    title: 'Place all images into qb-inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `['bahama_milk'] = {
+    bahama: {
+        title: 'Place all images into qb-inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `['bahama_milk'] = {
     name = 'bahama_milk',
     label = 'Milk',
     weight = 30,
@@ -602,8 +609,8 @@ export const INSTALLGUIDE = {
     combinable = nil,
     description = 'Fresh orange, perfect for juicing or as a snack.'
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `['bahama'] = {
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `['bahama'] = {
   label = 'bahama Mama',
   defaultDuty = true,
   grades = {
@@ -630,14 +637,14 @@ export const INSTALLGUIDE = {
     },
   },
 },`,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources',
-    codeThree: `['bahama_mixednuts'] = math.random(15, 25),  
+        textThree: 'You need add these to ConsumableEat in qb-smallresources',
+        codeThree: `['bahama_mixednuts'] = math.random(15, 25),  
 ['bahama_cubansandwich'] = math.random(15, 25),`,
-    textFour: 'You need add these to ConsumeablesDrink in qb-smallresources/config.lua',
-    codeFour: `['bahama_orangejuice'] = math.random(15, 25),
+        textFour: 'You need add these to ConsumeablesDrink in qb-smallresources/config.lua',
+        codeFour: `['bahama_orangejuice'] = math.random(15, 25),
 ['bahama_pineapplejuice'] = math.random(15, 25),`,
-    textFive: 'You need add these to ConsumeablesAlcohol in qb-smallresources/config.lua',
-    codeFive: `['bahama_bahamamama'] = math.random(15, 25),
+        textFive: 'You need add these to ConsumeablesAlcohol in qb-smallresources/config.lua',
+        codeFive: `['bahama_bahamamama'] = math.random(15, 25),
 ['bahama_goombaysmash'] = math.random(15, 25),
 ['bahama_hibiscusmargarita'] = math.random(15, 25),
 ['bahama_rebelliousfish'] = math.random(15, 25),
@@ -647,26 +654,26 @@ export const INSTALLGUIDE = {
 ['bahama_darkrum'] = math.random(15, 25),
 ['bahama_passionfruitliqueur'] = math.random(15, 25),
 ['bahama_whiterum'] = math.random(15, 25),`,
-    textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeSix: `['bahama'] = {
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeSix: `['bahama'] = {
   vector3(-1370.42, -626.93, 30.35),
 },`,
-    textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeSeven: `['bahama'] = {
+        textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSeven: `['bahama'] = {
   { coords = vector3(-1370.26, -625.84, 30.35), length = 1.0, width = 0.45, heading = 32, minZ = 30.15, maxZ = 30.87 },
 },
 `,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  beanmachine: {
-    title: 'Place all images into qb-inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `['beanmachine_milk'] = {
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    beanmachine: {
+        title: 'Place all images into qb-inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `['beanmachine_milk'] = {
     name = 'beanmachine_milk',
     label = 'Milk',
     weight = 30,
@@ -1386,8 +1393,8 @@ export const INSTALLGUIDE = {
     combinable = nil,
     description = 'A delivery bag ensuring your order reaches you hot and fresh.'
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `['beanmachine'] = {
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `['beanmachine'] = {
   label = 'Bean Machine',
   defaultDuty = true,
   offDutyPay = true,
@@ -1415,8 +1422,8 @@ export const INSTALLGUIDE = {
     },
   },
 },`,
-    textThree: 'You need add these to ConsumablesCoffee in qb-smallresources/config.lua',
-    codeThree: `["beanmachine_verandablend"] = math.random(15, 22),
+        textThree: 'You need add these to ConsumablesCoffee in qb-smallresources/config.lua',
+        codeThree: `["beanmachine_verandablend"] = math.random(15, 22),
 ["beanmachine_caffemisto"] = math.random(15, 22),
 ["beanmachine_darkroast"] = math.random(15, 22),
 ["beanmachine_pikeplaceroast"] = math.random(15, 22),
@@ -1431,8 +1438,8 @@ export const INSTALLGUIDE = {
 ["beanmachine_strawberrycremefrappuccino"] = math.random(15, 22),
 ["beanmachine_matchacremefrappuccino"] = math.random(15, 22),
 ["beanmachine_doublechocolatychipcremefrappuccino"] = math.random(15, 22),`,
-    textFour: 'You need add these to ConsumablesDrink in qb-smallresources/config.lua',
-    codeFour: `["beanmachine_stardrink"] = math.random(15, 22),
+        textFour: 'You need add these to ConsumablesDrink in qb-smallresources/config.lua',
+        codeFour: `["beanmachine_stardrink"] = math.random(15, 22),
 ["beanmachine_kiwistarfruit"] = math.random(15, 22),
 ["beanmachine_dragondrink"] = math.random(15, 22),
 ["beanmachine_strawberryacailemonade"] = math.random(15, 22),
@@ -1440,25 +1447,25 @@ export const INSTALLGUIDE = {
 ["beanmachine_strawberryacai"] = math.random(15, 22),
 ["beanmachine_mangodragonfruit"] = math.random(15, 22),
 ["beanmachine_mangodragonfruitlemonade"] = math.random(15, 22),`,
-    textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeFive: `['beanmachine'] = {
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeFive: `['beanmachine'] = {
   vector3(126.71, -1033.64, 29.28),
 },`,
-    textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeSix: `['beanmachine'] = {
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSix: `['beanmachine'] = {
   { coords = vector3(126.71, -1033.64, 29.28), length = 0.35, width = 0.45, heading = 351.0, minZ = 12.58, maxZ = 14.68 },
 },`,
-    textSeven: undefined,
-    codeSeven: undefined,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-  },
-  burgershot: {
-    title: 'Place all images into qb-inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `['burger_bleeder'] = {
+        textSeven: undefined,
+        codeSeven: undefined,
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+    },
+    burgershot: {
+        title: 'Place all images into qb-inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `['burger_bleeder'] = {
     name = 'burger_bleeder',
     label = 'Bleeder',
     weight = 600,
@@ -2046,8 +2053,8 @@ export const INSTALLGUIDE = {
     combinable = nil,
     description = 'Rich tomato sauce, perfect for adding depth to your dishes.',
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `['burgershot'] = {
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `['burgershot'] = {
   label = 'BurgerShot',
   defaultDuty = true,
   offDutyPay = true,
@@ -2075,8 +2082,8 @@ export const INSTALLGUIDE = {
     },
   },
 },`,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `["burger_bleeder"] = math.random(34, 54),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `["burger_bleeder"] = math.random(34, 54),
 ["burger_moneyshot"] = math.random(37, 56),
 ["burger_heartstopper"] = math.random(45, 65), 
 ["burger_meatfree"] = math.random(30, 50),
@@ -2084,8 +2091,8 @@ export const INSTALLGUIDE = {
 ["burger_chickennuggets"] = math.random(15, 25),
 ["burger_onionrings"] = math.random(15, 25),
 ["burger_icecream"] = math.random(7,10),`,
-    textFour: 'You need add these in qb-smallresources/config.lua',
-    codeFour: `Config.ConsumablesFries = {
+        textFour: 'You need add these in qb-smallresources/config.lua',
+        codeFour: `Config.ConsumablesFries = {
   ["burger_fries"] = math.random(15, 25),
 }
 
@@ -2106,8 +2113,8 @@ Config.ConsumableSoftDrink = {
   ["burger_softdrink"] = math.random(40, 65),
   ["burger_milkshake"] = math.random(40, 65),
 }`,
-    textFive: 'Now add the following code to qb-smallresources/server/consumables.lua',
-    codeFive: `for k,_ in pairs(Config.ConsumablesDonuts) do
+        textFive: 'Now add the following code to qb-smallresources/server/consumables.lua',
+        codeFive: `for k,_ in pairs(Config.ConsumablesDonuts) do
   QBCore.Functions.CreateUseableItem(k, function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
     if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
@@ -2138,8 +2145,8 @@ for k,_ in pairs(Config.ConsumableCoffee) do
     TriggerClientEvent("consumables:client:DrinkCoffee", source, item.name)
   end)
 end`,
-    textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
-    codeSix: `RegisterNetEvent('consumables:client:Fries', function(itemName)
+        textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
+        codeSix: `RegisterNetEvent('consumables:client:Fries', function(itemName)
   TriggerEvent('animations:client:EmoteCommandStart', {"fries"})
   QBCore.Functions.Progressbar("eat_something", "Eating..", 5000, false, true, {
     disableMovement = false,
@@ -2196,8 +2203,8 @@ RegisterNetEvent('consumables:client:DrinkCoffee', function(itemName)
     TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + Config.consumablesCoffee[itemName])
   end)
 end)`,
-    textSeven: 'You need add these prop emotes to either rpemotes/client/animationlist.lua under RP.PropEmotes = { ',
-    codeSeven: `["donut"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut", AnimationOptions = {
+        textSeven: 'You need add these prop emotes to either rpemotes/client/animationlist.lua under RP.PropEmotes = { ',
+        codeSeven: `["donut"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut", AnimationOptions = {
   Prop = 'prop_amb_donut',
   PropBone = 18905,
   PropPlacement = {0.13, 0.05, 0.02, -50.0, 16.0, 60.0},
@@ -2224,21 +2231,21 @@ end)`,
   EmoteLoop = true,
   EmoteMoving = true,
 }},`,
-    textEight:'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeEight: `['burgershot'] = {
+        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeEight: `['burgershot'] = {
   vector3(-1198.14, -897.63, 13.79),
 },`,
-    textNine:'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeNine: `['burgershot'] = {
+        textNine: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeNine: `['burgershot'] = {
   { coords = vector3(-1198.46, -898.48, 13.79), length = 1.0, width = 1.0, heading = 351.0, minZ = 13.61, maxZ = 14.08 },
 },`,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  chowhub: {
-    title: 'You need these to add the items into qb-cores shared items.lua',
-    textOne: undefined,
-    codeOne: `['chowhub_tablet'] = {
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    chowhub: {
+        title: 'You need these to add the items into qb-cores shared items.lua',
+        textOne: undefined,
+        codeOne: `['chowhub_tablet'] = {
     name = 'chowhub_tablet',
     label = 'Chowhub Tablet',
     weight = 700,
@@ -2250,29 +2257,29 @@ end)`,
     combinable = nil,
     description = 'Chowhub tablet'
 },`,
-    textTwo: 'You need these to add the chowhub.sql to your database.',
-    codeTwo: undefined,
-    textThree: 'Please go thru the configs folder.',
-    codeThree: undefined,
-    textFour: 'Add new stores by copying one of the stores and replacing the information.',
-    codeFour: undefined,
-    textFive: 'In config.lua storeNames is the job name in the shared.lua',
-    codeFive: undefined,
-    textSix: undefined,
-    codeSix: undefined,
-    textSeven: undefined,
-    codeSeven: undefined,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  hornys: {
-    title: 'Place all images into your inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `["hornys_baconroll"] = {
+        textTwo: 'You need these to add the chowhub.sql to your database.',
+        codeTwo: undefined,
+        textThree: 'Please go thru the configs folder.',
+        codeThree: undefined,
+        textFour: 'Add new stores by copying one of the stores and replacing the information.',
+        codeFour: undefined,
+        textFive: 'In config.lua storeNames is the job name in the shared.lua',
+        codeFive: undefined,
+        textSix: undefined,
+        codeSix: undefined,
+        textSeven: undefined,
+        codeSeven: undefined,
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    hornys: {
+        title: 'Place all images into your inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `["hornys_baconroll"] = {
     name = "hornys_baconroll",
     label = "Bacon Rolls",
     weight = 250,
@@ -3004,8 +3011,8 @@ end)`,
     combinable = nil,
     description = "A delivery bag ensuring your order reaches you hot and fresh."
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `['hornys'] = {
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `['hornys'] = {
   label = 'Hornys Employee',
   defaultDuty = true,
       offDutyPay = true,
@@ -3017,8 +3024,8 @@ end)`,
           ['4'] = {name = 'Owner', isboss = true, payment = 1000}
       }
 },`,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `["hb-baconroll"] = math.random(45, 65),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `["hb-baconroll"] = math.random(45, 65),
 ["hb-breakfast"] = math.random(45, 65),
 ["hb-eggs_benedict"] = math.random(45, 65),
 ["hb-eggsbacon"] = math.random(45, 65),
@@ -3043,8 +3050,8 @@ end)`,
 ["hb-icecream-cake"] = math.random(25, 50),
 ["hb-icecream-cone"] = math.random(5, 10),
 ["hb-icecream-nuggets"] = math.random(30, 60),`,
-    textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
-    codeFour: `["hb-hercules"] = math.random(45, 65),
+        textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
+        codeFour: `["hb-hercules"] = math.random(45, 65),
 ["hb-junk"] = math.random(45, 65),
 ["hb-orangotang"] = math.random(45, 65),
 ["hb-pepsi"] = math.random(45, 65),
@@ -3053,27 +3060,27 @@ end)`,
 ["hb-water-bottle"] = math.random(45, 65),
 ["hb-cherry-float"] = math.random(20, 40),
 ["hb-cherrypopper"] = math.random(15, 30),`,
-    textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeFive: `['hornys'] = {
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeFive: `['hornys'] = {
   vector3(1238.41, -348.82, 69.08),
 },`,
-    textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeSix: `['hornys'] = {
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSix: `['hornys'] = {
   { coords = vector3(81.09, 297.31, 109.99), length = 0.35, width = 0.45, heading = 340.0, minZ = 109.96, maxZ = 111.01 },
 },`,
-    textSeven: undefined,
-    codeSeven: undefined,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  koi: {
-    title: 'Place all images into your inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `["koi_pekingduckrolls"] = {
+        textSeven: undefined,
+        codeSeven: undefined,
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    koi: {
+        title: 'Place all images into your inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `["koi_pekingduckrolls"] = {
     name = "koi_pekingduckrolls",
     label = "Peking Duck Rolls",
     weight = 500,
@@ -4117,8 +4124,8 @@ end)`,
     combinable = nil,
     description = '',
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `['koi'] = {
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `['koi'] = {
   label = 'Koi Employee',
   defaultDuty = true,
   offDutyPay = true,
@@ -4130,8 +4137,8 @@ end)`,
     ['4'] = {name = 'Owner', isboss = true, payment = 1000}
   }
 },`,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `['koi_pekingduckrolls'] = math.random(45, 65),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `['koi_pekingduckrolls'] = math.random(45, 65),
 ['koi_szechuanspicywontons'] = math.random(45, 65),
 ['koi_crispyspringrolls'] = math.random(45, 65),
 ['koi_steameddimsumplatter'] = math.random(45, 65),
@@ -4151,33 +4158,33 @@ end)`,
 ['koi_sesamechicken'] = math.random(45, 65),
 ['koi_sizzlingszechuanshrimp'] = math.random(45, 65),
 ['koi_vegetablelomein'] = math.random(45, 65),`,
-    textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
-    codeFour: `['koi_lycheemartini'] = math.random(45, 65),
+        textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
+        codeFour: `['koi_lycheemartini'] = math.random(45, 65),
 ['koi_oolongicedtea'] = math.random(45, 65),
 ['koi_jasmineblossomgreentea'] = math.random(45, 65),
 ['koi_plumwine'] = math.random(45, 65),
 ['koi_sake'] = math.random(45, 65),`,
-    textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeFive: `['koi'] = {
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeFive: `['koi'] = {
   vector3(-1053.71, -1440.46, -1.38),
 },`,
-    textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeSix: `['koi'] = {
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSix: `['koi'] = {
   { coords = vector3(-1054.44, -1440.97, -1.57), length = 0.35, width = 0.45, heading = 340.0, minZ = -1.57, maxZ = -1.16 },
 },`,
-    textSeven: undefined,
-    codeSeven: undefined,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  pearls: {
-    title: 'Place all images into qb-inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `['pearls_steak'] = {
+        textSeven: undefined,
+        codeSeven: undefined,
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    pearls: {
+        title: 'Place all images into qb-inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `['pearls_steak'] = {
     name = 'pearls_steak',
     label = 'Steak',
     weight = 30,
@@ -5029,8 +5036,8 @@ end)`,
     combinable = nil,
     description = "Indulge in the richness of Pearls' Espresso Martini, crafted with top_quality coffee liqueur, vodka, and a shot of freshly brewed espresso, garnished with coffee beans."
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `['pearls'] = {
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `['pearls'] = {
   label = 'pearls',
   defaultDuty = true,
   grades = {
@@ -5058,8 +5065,8 @@ end)`,
   },
 }
     `,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `["pearls_meal_honeyglazedsalmonwithriceandvegetables"] = math.random(35, 54),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `["pearls_meal_honeyglazedsalmonwithriceandvegetables"] = math.random(35, 54),
 ["pearls_meal_kingcrablegs"] = math.random(35, 54),
 ["pearls_meal_sesamesearedtunawithgrilledvegetables"] = math.random(35, 54),
 ["pearls_meal_steakandlobsterwithmashtatersandasparagus"] = math.random(35, 54),
@@ -5079,8 +5086,8 @@ end)`,
 ["pearls_meal_searedtunasteak"] = math.random(35, 54),
 ["pearls_meal_honeyglazedkingcrab"] = math.random(35, 54),
 ["pearls_meal_mojitoinfusedtuna"] = math.random(35, 54),`,
-    textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
-    codeFour: `["pearls_cokecola"] = math.random(35, 54),
+        textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
+        codeFour: `["pearls_cokecola"] = math.random(35, 54),
 ["pearls_mojito"] = math.random(35, 54),
 ["pearls_rum"] = math.random(35, 54),
 ["pearls_signaturemartini"] = math.random(35, 54),
@@ -5093,27 +5100,27 @@ end)`,
 ["pearls_blackberrysagespritz"] = math.random(35, 54),
 ["pearls_mintjuleproyale"] = math.random(35, 54),
 ["pearls_espressomartini"] = math.random(35, 54),`,
-    textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeFive: `['pearls'] = {
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeFive: `['pearls'] = {
   vector3(-1840.11, -1182.93, 14.31),
 },`,
-    textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeSix: `['pearls'] = {
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSix: `['pearls'] = {
   { coords = vector3(-1840.11, -1183.89, 14.20), length = 0.35, width = 0.45, heading = 351.0, minZ = 14.21, maxZ = 14.70 },
 },`,
-    textSeven: undefined,
-    codeSeven: undefined,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  pizzathis: {
-    title: 'Place all images into your inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `['pizzathis_milk'] = {
+        textSeven: undefined,
+        codeSeven: undefined,
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    pizzathis: {
+        title: 'Place all images into your inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `['pizzathis_milk'] = {
     name = 'pizzathis_milk',
     label = 'Milk',
     weight = 30,
@@ -5893,8 +5900,8 @@ end)`,
     combinable = nil,
     description = 'A box of Vegetariana pizza slices, full of veggies.'
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `
     ['pizzathis'] = {
       label = 'Pizza This',
       defaultDuty = true,
@@ -5924,8 +5931,8 @@ end)`,
       },
   },
     `,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `['tiramisu'] = math.random(15, 22),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `['tiramisu'] = math.random(15, 22),
 ['pizzathis_chocolategelato'] = math.random(7,10),
 ['pizzathis_vanillagelato'] = math.random(7,10),
 ['pizzathis_freshfruits'] = math.random(15, 22),
@@ -5934,8 +5941,8 @@ end)`,
 ['pizzathis_homemademeatball'] = math.random(30, 42),
 ['pizzathis_allavodka'] = math.random(30, 42),
 ['pizzathis_pescatore'] = math.random(30, 42), `,
-    textFour: 'You need add these in qb-smallresources/config.lua',
-    codeFour: `Config.ConsumablesPizzaThisSlices = {
+        textFour: 'You need add these in qb-smallresources/config.lua',
+        codeFour: `Config.ConsumablesPizzaThisSlices = {
   ['pizzathis_margheritaslices'] = math.random(30, 54),
   ['pizzathis_marinaraslices'] = math.random(35, 54),
   ['pizzathis_prosciuttioslices'] = math.random(35, 54),
@@ -5952,8 +5959,8 @@ Config.ConsumablesPizzaThisPizza = {
   ['pizzathis_capricciosa'] = math.random(35, 54),
   ['pizzathis_vegetariana'] = math.random(35, 54),
 }`,
-    textFive: 'Now add the following code to qb-smallresources/server/consumables.lua',
-    codeFive: `for k,_ in pairs(Config.ConsumablesPizzaThisSlices) do
+        textFive: 'Now add the following code to qb-smallresources/server/consumables.lua',
+        codeFive: `for k,_ in pairs(Config.ConsumablesPizzaThisSlices) do
     QBCore.Functions.CreateUseableItem(k, function(source, item)
       local Player = QBCore.Functions.GetPlayer(source)
       if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
@@ -5968,8 +5975,8 @@ for k,_ in pairs(Config.ConsumablesPizzaThisPizza) do
       TriggerClientEvent('consumables:client:EatFullPizza', source, item.name)
     end)
 end`,
-    textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
-    codeSix: `RegisterNetEvent('consumables:client:EatPizzaSlice', function(itemName)
+        textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
+        codeSix: `RegisterNetEvent('consumables:client:EatPizzaSlice', function(itemName)
   EatItem(itemName, false, 'pizzaslice')
 end)
   
@@ -5993,16 +6000,16 @@ local function EatItem(itemName, isFullPizza, animation)
       QBCore.Functions.Notify('Cancelled..', 'error')
   end, 'fa-solid fa-burger')
 end`,
-    textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeSeven: `['pizzathis'] = {
+        textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeSeven: `['pizzathis'] = {
   vector3(796.52215, -749.3094, 31.265884),
 },`,
-    textEight:'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeEight: `['pizzathis'] = {
+        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeEight: `['pizzathis'] = {
   { coords = vector3(796.46, -748.94, 31.265884), length = 0.38, width = 0.55, heading = 351.0, minZ = 30.58, maxZ = 31.68 }, -- DONE
 },`,
-    textNine:'Add this under qb-shop/config.lua under products -- this is for the drinks',
-    codeNine: `['pizzathis'] = {
+        textNine: 'Add this under qb-shop/config.lua under products -- this is for the drinks',
+        codeNine: `['pizzathis'] = {
   [1] = {
     name = 'coffee',
     price = 5,
@@ -6069,8 +6076,8 @@ end`,
   },
 },
     `,
-    textTen:'Add this under qb-shop/config.lua under Config.Locations',
-    codeTen:`['pizzathis'] = {
+        textTen: 'Add this under qb-shop/config.lua under Config.Locations',
+        codeTen: `['pizzathis'] = {
     label = 'Pizza This',
     type = 'pizzathis',
   ['coords'] = vector3(813.5108, -749.3524, 26.780836),
@@ -6084,11 +6091,11 @@ end`,
   ['blipsprite'] = 267,
   ['blipcolor'] = 25
 },`,
-  },
-  upnatom: {
-    title: 'Place all images into your inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `["upnatoms_bacon_eggs"] = {
+    },
+    upnatom: {
+        title: 'Place all images into your inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `["upnatoms_bacon_eggs"] = {
     name = "upnatoms_bacon_eggs",
     label = "Up N Atoms Bacon n Eggs",
     weight = 250,
@@ -6796,8 +6803,8 @@ end`,
     combinable = nil,
     description = 'A delivery bag ensuring your order reaches you hot and fresh.'
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `
 ['upnatoms'] = {
   label = 'Up-N-Atoms Employee',
   defaultDuty = true,
@@ -6810,8 +6817,8 @@ end`,
     ['4'] = {name = 'Owner', isboss = true, payment = 1000}
   }
 },`,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `["upnatoms_bacon-eggs"] = math.random(80, 100),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `["upnatoms_bacon-eggs"] = math.random(80, 100),
 ["upnatoms_bacon_rolls"] = math.random(50, 75),
 ["upnatoms_eggs_benedict"] = math.random(80, 100),
 ["upnatoms_eggs_florentine"] = math.random(80, 100),
@@ -6831,16 +6838,16 @@ end`,
 ["upnatoms_chicken_stars"] = math.random(55, 80),
 ["upnatoms_grilled_chicken"] = math.random(80, 100),
 ["upnatoms_hunk_o_hen"] = math.random(80, 100),`,
-    textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
-    codeFour: `["upnatoms_ecola"] = math.random(75, 100),
+        textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
+        codeFour: `["upnatoms_ecola"] = math.random(75, 100),
 ["upnatoms_hercules"] = math.random(75, 100),
 ["upnatoms_junk"] = math.random(75, 100),
 ["upnatoms_orangtang"] = math.random(75, 100),
 ["upnatoms_raine"] = math.random(75, 100),
 ["upnatoms_sprunk"] = math.random(75, 100),
 ["upnatoms_water"] = math.random(75, 100),`,
-    textFive: 'Now add the following code to qb-smallresources/client/consumables.lua',
-    codeFive: `RegisterNetEvent('qb-upnatoms:client:EatPlate', function(itemName)
+        textFive: 'Now add the following code to qb-smallresources/client/consumables.lua',
+        codeFive: `RegisterNetEvent('qb-upnatoms:client:EatPlate', function(itemName)
   TriggerEvent('animations:client:EmoteCommandStart', {"dinner"})
   QBCore.Functions.Progressbar("eat_something", "Eating Dinner Plate", 5000, false, false, {
       disableMovement = false,
@@ -6983,25 +6990,25 @@ RegisterNetEvent('qb-upnatoms:client:DrinkHercules', function(itemName)
       TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + Config.ConsumablesDrink[itemName])
   end)
 end)`,
-    textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeSix: `['upnatoms'] = {
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeSix: `['upnatoms'] = {
   vector3(81.37, 296.46, 110.25),
 },`,
-    textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeSeven: `['upnatoms'] = {
+        textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSeven: `['upnatoms'] = {
   { coords = vector3(81.09, 297.31, 109.99), length = 0.35, width = 0.45, heading = 340.0, minZ = 109.96, maxZ = 111.01 },
 },`,
-    textEight: undefined,
-    codeEight: undefined,
-    textNine: undefined,
-    codeNine: undefined,
-    textTen: undefined,
-    codeTen: undefined,
-  },
-  uwu: {
-    title: 'Place all images into qb-inventory images folder',
-    textOne: 'You need these to add the items into qb-core shared.lua',
-    codeOne: `['uwububbleteablueberry'] = {
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    uwu: {
+        title: 'Place all images into qb-inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `['uwububbleteablueberry'] = {
     name = 'uwububbleteablueberry',
     label = 'uWu Berry Blue B_T',
     weight = 200,
@@ -7757,8 +7764,8 @@ end)`,
     combinable = nil,
     description = 'A rare uWu pink plush toy.'
 },`,
-    textTwo: 'Now add this to the qb-core/shared/job.lua',
-    codeTwo: `
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `
 ['uwu'] = {
   label = 'Uwu Cafe',
   defaultDuty = true,
@@ -7787,11 +7794,11 @@ end)`,
     },
   },
 },`,
-    textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
-    codeThree: `["uwusushi"] = math.random(45, 50),
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `["uwusushi"] = math.random(45, 50),
 ["uwupancake"] = math.random(25, 34),`,
-    textFour: 'You need add these in qb-smallresources/config.lua',
-    codeFour: `Config.ConsumablesDonuts = {
+        textFour: 'You need add these in qb-smallresources/config.lua',
+        codeFour: `Config.ConsumablesDonuts = {
   ["uwucupcake"] = math.random(40, 45),
 }
 
@@ -7813,8 +7820,8 @@ Config.ConsumablesTea = {
   ["uwububbletearose"] = math.random(55, 60),
   ["uwububbleteamint"] = math.random(55, 60),
 }`,
-    textFive: 'Now add the following code to qb-smallresources/server/consumables.lua',
-    codeFive: `for k,_ in pairs(Config.ConsumablesTea) do
+        textFive: 'Now add the following code to qb-smallresources/server/consumables.lua',
+        codeFive: `for k,_ in pairs(Config.ConsumablesTea) do
   QBCore.Functions.CreateUseableItem(k, function(source, item)
       local Player = QBCore.Functions.GetPlayer(source)
       if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
@@ -7853,8 +7860,8 @@ for k,_ in pairs(Config.ConsumablesDonuts) do
       TriggerClientEvent("consumables:client:Donut", source, item.name)
   end)
 end`,
-    textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
-    codeSix: `RegisterNetEvent("consumables:client:Uwububbleteablueberry", function(itemName)
+        textSix: 'Now add the following code to qb-smallresources/client/consumables.lua',
+        codeSix: `RegisterNetEvent("consumables:client:Uwububbleteablueberry", function(itemName)
     TriggerEvent('animations:client:EmoteCommandStart', {"bubbletea"})
     QBCore.Functions.Progressbar("drink_something", "Popping some Bubble Tea..", 5500, false, true, {
         disableMovement = false,
@@ -7954,8 +7961,8 @@ RegisterNetEvent("consumables:client:Donut", function(itemName)
         QBCore.Functions.Notify("Cancelled..", "error")
     end)
 end)`,
-    textSeven: 'You need add these prop emotes to dpemotes/client/animationlist.lua under DP.PropEmotes = {',
-    codeSeven: `["bubbletea"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
+        textSeven: 'You need add these prop emotes to dpemotes/client/animationlist.lua under DP.PropEmotes = {',
+        codeSeven: `["bubbletea"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
 {
    Prop = 'apa_prop_cs_plastic_cup_01',
    PropBone = 28422,
@@ -8064,15 +8071,94 @@ end)`,
     EmoteMoving = true,
     EmoteLoop = true
 }},`,
-    textEight:'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
-    codeEight: `['uwu'] = {
+        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeEight: `['uwu'] = {
   vector3(-577.5565, -1067.565, 26.614078),
 },`,
-    textNine:'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
-    codeNine: `['uwu'] = {
+        textNine: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeNine: `['uwu'] = {
   { coords = vector3(-578.36, -1066.95, 26.614078), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.33, maxZ = 27.38 },
 },`,
-    textTen: undefined,
-    codeTen: undefined,
-  },
+        textTen: undefined,
+        codeTen: undefined,
+    },
+    cluckin: {
+        title: 'Place all images into qb-inventory images folder',
+        textOne: 'You need these to add the items into qb-core shared.lua',
+        codeOne: `--Clukin Bell
+cluckin_bigcluck        = {name = 'cluckin_bigcluck',       label = 'Big Cluck Burger',     weight = 350, type = 'item', image = 'cluckin_bigcluck.png',        unique = false, useable = true, shouldClose = true, combinable = nil, description = 'The ultimate chicken burger for the hungriest souls.'},
+cluckin_littlepecker    = {name = 'cluckin_littlepecker',   label = 'Little Pecker Wrap',   weight = 250, type = 'item', image = 'cluckin_littlepecker.png',    unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A small but mighty tasty chicken wrap.'},
+cluckin_fowlburger      = {name = 'cluckin_fowlburger',     label = 'Fowl Burger',          weight = 300, type = 'item', image = 'cluckin_fowlburger.png',      unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Deliciously wicked chicken burger.'},
+cluckin_wings           = {name = 'cluckin_wings',          label = 'Cluckin Wings',        weight = 200, type = 'item', image = 'cluckin_wings.png',           unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Crispy wings with a side of heaven.'},
+cluckin_nuggets         = {name = 'cluckin_nuggets',        label = 'Chicken Nuggets',      weight = 150, type = 'item', image = 'cluckin_nuggets.png',         unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Bite-sized joy, perfect for snacking.'},
+cluckin_fries           = {name = 'cluckin_fries',          label = 'Large Fries',          weight = 325, type = 'item', image = 'cluckin_fries.png',           unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Crispy golden fries, a perfect side to any burger.' },
+cluckin_lettuce         = {name = 'cluckin_lettuce',        label = 'Fresh Lettuce',        weight = 100, type = 'item', image = 'cluckin_lettuce.png',         unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Crisp, fresh lettuce for that perfect crunch.'},
+cluckin_chicken         = {name = 'cluckin_chicken',        label = 'Raw Chicken',          weight = 500, type = 'item', image = 'cluckin_chicken.png',         unique = false, useable = true, shouldClose = true, combinable = nil, description = 'The base of all our cluckin good meals.'},
+cluckin_fried_chicken   = {name = 'cluckin_fried_chicken',  label = 'Cooked Chicken',       weight = 500, type = 'item', image = 'cluckin_fried_chicken.png',  unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Cooked chicken for our cluckin good meals.'},
+cluckin_potato          = {name = 'cluckin_potato',         label = 'Potatoes',             weight = 300, type = 'item', image = 'cluckin_potato.png',          unique = false, useable = true, shouldClose = true, combinable = nil, description = 'For making the best fries or mashed potatoes.'},
+cluckin_bun             = {name = 'cluckin_bun',            label = 'Burger Buns',          weight = 50, type = 'item', image = 'cluckin_bun.png',              unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Soft, fluffy buns for our signature sandwiches.'},
+cluckin_cheese          = {name = 'cluckin_cheese',         label = 'Cheese Slices',        weight = 20, type = 'item', image = 'cluckin_cheese.png',           unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Melty cheese to top off any burger or wrap.'},
+cluckin_frozenwings     = {name = 'cluckin_frozenwings',    label = 'Frozen Wings',         weight = 400, type = 'item', image = 'cluckin_frozenwings.png',     unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Ready to be fried to crispy perfection.'},
+cluckin_onions          = {name = 'cluckin_onions',         label = 'Onions',               weight = 150, type = 'item', image = 'cluckin_onions.png',          unique = false, useable = true, shouldClose = true, combinable = nil, description = 'For adding a bit of sharpness to any dish.'},
+cluckin_slicedonion     = {name = 'cluckin_slicedonion',    label = 'Sliced Onions',        weight = 150, type = 'item', image = 'cluckin_slicedonion.png',     unique = false, useable = true, shouldClose = true, combinable = nil, description = 'For adding a bit of sharpness to any dish.'},
+cluckin_tomato          = {name = 'cluckin_tomato',         label = 'Tomatoes',             weight = 200, type = 'item', image = 'cluckin_tomato.png',          unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fresh tomatoes for the juiciest burgers.'},
+cluckin_tomatoslices    = {name = 'cluckin_tomatoslices',   label = 'Tomatoe Slices',       weight = 200, type = 'item', image = 'cluckin_tomatoslices.png',    unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fresh tomatoes slices for the juiciest burgers.'},
+cluckin_milk            = {name = 'cluckin_milk',           label = 'Milk',                 weight = 1000, type = 'item', image = 'cluckin_milk.png',           unique = false, useable = true, shouldClose = true, combinable = nil, description = 'For milkshakes and other dairy delights.'},
+cluckin_wing            = {name = 'cluckin_wing',           label = 'Chicken Wing',         weight = 10, type = 'item', image = 'cluckin_wing.png',             unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fried to crispy perfection.'},
+cluckin_nugget          = {name = 'cluckin_nugget',         label = 'Chicken Nugget',       weight = 10, type = 'item', image = 'cluckin_nugget.png',           unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fried to crispy perfection.'},
+cluckin_hercules  	    = {name = 'cluckin_hercules', 		label = 'Hercules', 			weight = 180, type = 'item', image = 'cluckin_hercules.png',        unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Yummy'},
+cluckin_junk  		    = {name = 'cluckin_junk', 			label = 'Junk', 			    weight = 180, type = 'item', image = 'cluckin_junk.png',            unique = false, useable = true, shouldClose = true, combinable = nil, description = 'ENERGRY!!!'},
+cluckin_orangotang      = {name = 'cluckin_orangotang', 	label = 'Orang O Tang', 		weight = 180, type = 'item', image = 'cluckin_orangotang.png', 		unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Orang O Tang'},
+cluckin_pepsi  	        = {name = 'cluckin_pepsi', 			label = 'Pepsi', 				weight = 180, type = 'item', image = 'cluckin_pepsi.png', 			unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Pepsi!'},
+cluckin_raine  		    = {name = 'cluckin_raine', 		    label = 'Raine', 			    weight = 180, type = 'item', image = 'cluckin_raine.png', 		    unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Good ol water'},
+cluckin_sprunk  	    = {name = 'cluckin_sprunk', 		label = 'Sprunk', 				weight = 180, type = 'item', image = 'cluckin_sprunk.png', 			unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Nothing like an ice cold Sprunk'},
+cluckin_pallet          = {name = 'cluckin_pallet',         label = 'Cluckin Pallet',       weight = 10000, type = 'item', image = 'cluckin_pallet.png',        unique = false, useable = true, shouldClose = true, combinable = nil, description = 'All the ingredients for a Cluckin feast.'},
+cluckin_ticket          = {name = 'cluckin_ticket',         label = 'Discount Ticket',      weight = 10, type = 'item', image = 'cluckin_ticket.png',           unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Redeem for a special meal at Cluckin Bell.'},
+cluckin_bag             = {name = 'cluckin_bag',            label = 'Cluckin To Go Bag',    weight = 180, type = 'item', image = 'cluckin_bag.png',             unique = false, useable = true, shouldClose = true, combinable = nil, description = 'To Go Order from Cluckin Bell.'},
+cluckin_box             = {name = 'cluckin_box',            label = 'Cluckin Meal Box',     weight = 1000, type = 'item', image = 'cluckin_box.png',            unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A box filled with delicious cluckin essentials.' },`,
+        textTwo: 'Now add this to the qb-core/shared/job.lua',
+        codeTwo: `cluckin = {
+    label = 'Cluckin Bell',
+    defaultDuty = true,
+    offDutyPay = false,
+    grades = {
+        ['0'] = { name = 'Recruit', payment = 600},
+        ['1'] = { name = 'Crew Member', payment = 700},
+        ['2'] = { name = 'Shift Manager', payment = 800},
+        ['3'] = { name = 'Manager', payment = 900},
+        ['4'] = { name = 'Owner', isboss = true, payment = 1000},
+    },
+},`,
+        textThree: 'You need add these to ConsumableEat in qb-smallresources/config.lua',
+        codeThree: `['cluckin_bigcluck '] = math.random(45, 65),
+['cluckin_littlepecker'] = math.random(45, 65),
+['cluckin_fowlburger'] = math.random(45, 65),
+['cluckin_wings'] = math.random(45, 65),
+['cluckin_nuggets'] = math.random(45, 65),
+['cluckin_fries'] = math.random(45, 65),`,
+        textFour: 'You need add these to ConsumableDrink in qb-smallresources/config.lua',
+        codeFour: `['cluckin_hercules'] = math.random(45, 65),
+['cluckin_junk'] = math.random(45, 65),
+['cluckin_orangotang'] = math.random(45, 65),
+['cluckin_pepsi'] = math.random(45, 65),
+['cluckin_raine'] = math.random(45, 65),
+['cluckin_sprunk'] = math.random(45, 65),
+      `,
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        codeFive: `['burgershot'] = {
+  vector3(-1198.14, -897.63, 13.79),
+},`,
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        codeSix: `['burgershot'] = {
+    { coords = vector3(-1198.46, -898.48, 13.79), length = 1.0, width = 1.0, heading = 351.0, minZ = 13.61, maxZ = 14.08 },
+},`,
+        textSeven: undefined,
+        codeSeven: undefined,
+        textEight: undefined,
+        codeEight: undefined,
+        textNine: undefined,
+        codeNine: undefined,
+        textTen: undefined,
+        codeTen: undefined,
+    },
 };

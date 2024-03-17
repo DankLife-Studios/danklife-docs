@@ -123,6 +123,7 @@ export default function Guide() {
                     <TabButton isSelected={selectedTopic === 'pizzathis'} onClick={() => handleSelect('pizzathis')}>Pizza This</TabButton>
                     <TabButton isSelected={selectedTopic === 'upnatom'} onClick={() => handleSelect('upnatom')}>Up N Atom</TabButton>
                     <TabButton isSelected={selectedTopic === 'uwu'} onClick={() => handleSelect('uwu')}>Uwu Cafe</TabButton>
+                    <TabButton isSelected={selectedTopic === 'cluckin'} onClick={() => handleSelect('cluckin')}>Cluckin Bell</TabButton>
                 </>}>
                 {tabContent}
             </Tabs>
