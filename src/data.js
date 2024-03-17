@@ -8,6 +8,7 @@ import hornysImg from './assets/hornys.png';
 import koiImg from './assets/koi.png';
 import pearlsImg from './assets/pearls.png';
 import upnatomsImg from './assets/upnatom.png';
+import cluckinImg from './assets/cluckin.png';
 
 export const DANK_SCRIPTS = [
     {
