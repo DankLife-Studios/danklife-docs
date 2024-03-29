@@ -655,7 +655,7 @@ export const INSTALLGUIDE = {
 ['bahama_darkrum'] = math.random(15, 25),
 ['bahama_passionfruitliqueur'] = math.random(15, 25),
 ['bahama_whiterum'] = math.random(15, 25),`,
-        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus and you also have to add the job to the qb-management database table.',
         codeSix: `['bahama'] = {
   vector3(-1370.42, -626.93, 30.35),
 },`,
@@ -1448,7 +1448,7 @@ export const INSTALLGUIDE = {
 ["beanmachine_strawberryacai"] = math.random(15, 22),
 ["beanmachine_mangodragonfruit"] = math.random(15, 22),
 ["beanmachine_mangodragonfruitlemonade"] = math.random(15, 22),`,
-        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus and you also have to add the job to the qb-management database table.',
         codeFive: `['beanmachine'] = {
   vector3(126.71, -1033.64, 29.28),
 },`,
@@ -2232,7 +2232,7 @@ end)`,
   EmoteLoop = true,
   EmoteMoving = true,
 }},`,
-        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeEight: `['burgershot'] = {
   vector3(-1198.14, -897.63, 13.79),
 },`,
@@ -3061,7 +3061,7 @@ end)`,
 ["hb-water-bottle"] = math.random(45, 65),
 ["hb-cherry-float"] = math.random(20, 40),
 ["hb-cherrypopper"] = math.random(15, 30),`,
-        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeFive: `['hornys'] = {
   vector3(1238.41, -348.82, 69.08),
 },`,
@@ -4165,7 +4165,7 @@ end)`,
 ['koi_jasmineblossomgreentea'] = math.random(45, 65),
 ['koi_plumwine'] = math.random(45, 65),
 ['koi_sake'] = math.random(45, 65),`,
-        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeFive: `['koi'] = {
   vector3(-1053.71, -1440.46, -1.38),
 },`,
@@ -5101,7 +5101,7 @@ end)`,
 ["pearls_blackberrysagespritz"] = math.random(35, 54),
 ["pearls_mintjuleproyale"] = math.random(35, 54),
 ["pearls_espressomartini"] = math.random(35, 54),`,
-        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeFive: `['pearls'] = {
   vector3(-1840.11, -1182.93, 14.31),
 },`,
@@ -6001,7 +6001,7 @@ local function EatItem(itemName, isFullPizza, animation)
       QBCore.Functions.Notify('Cancelled..', 'error')
   end, 'fa-solid fa-burger')
 end`,
-        textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeSeven: `['pizzathis'] = {
   vector3(796.52215, -749.3094, 31.265884),
 },`,
@@ -6991,7 +6991,7 @@ RegisterNetEvent('qb-upnatoms:client:DrinkHercules', function(itemName)
       TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + Config.ConsumablesDrink[itemName])
   end)
 end)`,
-        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textSix: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeSix: `['upnatoms'] = {
   vector3(81.37, 296.46, 110.25),
 },`,
@@ -7223,7 +7223,7 @@ end)`,
     useable = true,
     shouldClose = true,
     combinable = nil,
-    description = 'I can't believe its not butter!'
+    description = 'I can\'t believe its not butter!'
 },
 ['uwu_sugar'] = {
     name = 'uwu_sugar',
@@ -8072,7 +8072,7 @@ end)`,
     EmoteMoving = true,
     EmoteLoop = true
 }},`,
-        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeEight: `['uwu'] = {
   vector3(-577.5565, -1067.565, 26.614078),
 },`,
@@ -8145,7 +8145,7 @@ cluckin_box             = {name = 'cluckin_box',            label = 'Cluckin Mea
 ['cluckin_raine'] = math.random(45, 65),
 ['cluckin_sprunk'] = math.random(45, 65),
       `,
-        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus',
+        textFive: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus and you also have to add the job to the qb-management database table.',
         codeFive: `['cluckin'] = {
   vector3(-1198.14, -897.63, 13.79),
 },`,
