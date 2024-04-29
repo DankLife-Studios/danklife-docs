@@ -7894,7 +7894,6 @@ RegisterNetEvent("consumables:client:uwumisosoup", function(itemName)
         TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
         TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuSoup[itemName])
         TriggerServerEvent('hud:server:RelieveStress', math.random(4, 8))
-        HealOxy()
         action = false
     end, function() -- Cancel
         TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
@@ -7915,7 +7914,6 @@ RegisterNetEvent("consumables:client:Uwubudhabowl", function(itemName)
         TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove", 1)
         TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + Config.ConsumablesUwuBowl[itemName])
         TriggerServerEvent('hud:server:RelieveStress', math.random(4, 10))
-        HealOxy()
         action = false
     end, function() -- Cancel
         TriggerServerEvent("QBCore:Server:AddItem", itemName, 1)
