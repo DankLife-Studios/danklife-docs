@@ -7201,18 +7201,6 @@ end)`,
     combinable = nil,
     description = 'Flour for baking.'
 },
-['uwu_nutmeg'] = {
-    name = 'uwu_nutmeg',
-    label = 'Nutmeg',
-    weight = 200,
-    type = 'item',
-    image = 'uwu_nutmeg.png',
-    unique = false,
-    useable = true,
-    shouldClose = true,
-    combinable = nil,
-    description = 'Nutmeg for spicing up your dishes.'
-},
 ['uwu_butter'] = {
     name = 'uwu_butter',
     label = 'Butter',
