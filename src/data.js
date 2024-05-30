@@ -7958,8 +7958,8 @@ RegisterNetEvent('consumables:client:UwuCupcake', function(itemName)
 end)`,
         textSeven: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeSeven: `['uwu'] = {
-            vector3(-577.5565, -1067.565, 26.614078),
-          },`,
+    vector3(-577.5565, -1067.565, 26.614078),
+},`,
         textEight: 'You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
         codeEight: `['uwu'] = {
     { coords = vector3(-578.36, -1066.95, 26.614078), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.33, maxZ = 27.38 },
