@@ -9,8 +9,17 @@ import koiImg from './assets/koi.png';
 import pearlsImg from './assets/pearls.png';
 import upnatomsImg from './assets/upnatom.png';
 import cluckinImg from './assets/cluckin.png';
+import baitcarImg from './assets/baitcar.png';
+import vanillaImg from './assets/vanilla.png';
 
 export const DANK_SCRIPTS = [
+    {
+        image: baitcarImg,
+        title: 'Ultimate Baitcar System',
+        description: 'Are you ready to elevate your FiveM server to unparalleled heights? Introducing the Ultimate QBCore FiveM Bait Car System – the must-have tool for any serious law enforcement roleplay server.',
+        escrowLink: 'https://danklife-gaming-studios-script.tebex.io/package/6284546',
+        opensourceLink: 'https://danklife-gaming-studios-script.tebex.io/package/6284548',
+    },
     {
         image: chowhubImg,
         title: 'Chowhub - Addon - Free With Purchase of any Restaurant',
@@ -85,6 +94,13 @@ export const DANK_SCRIPTS = [
         image: cluckinImg,
         title: 'Cluckin Bell - Coming soon',
         description: 'Immerse yourself in the tranquil oasis of Koi, where every dish is a work of art and every moment is savored. Join us in creating unforgettable dining experiences for all who visit.',
+        escrowLink: '',
+        opensourceLink: '',
+    },
+    {
+        image: vanillaImg,
+        title: 'Vanilla Unicorn - Coming soon',
+        description: 'Immerse yourself in the vibrant atmosphere of Vanilla Unicorn, where every drink is crafted to perfection, every dish is a culinary delight, and every moment is unforgettable. Join us in creating unforgettable nightlife and dining experiences for all who visit.',
         escrowLink: '',
         opensourceLink: '',
     },
