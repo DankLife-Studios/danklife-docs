@@ -105,6 +105,86 @@ export default function Guide() {
                         <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeTen}</SyntaxHighlighter>
                     </pre>
                 )}
+                {guide.textEleven && (
+                    <p>{guide.textEleven}</p>
+                )}
+                {guide.textEleven && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textEleven}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textTwelve && (
+                    <p>{guide.textTwelve}</p>
+                )}
+                {guide.textTwelve && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textTwelve}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textThirteen && (
+                    <p>{guide.textThirteen}</p>
+                )}
+                {guide.textThirteen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textThirteen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textFourteen && (
+                    <p>{guide.textFourteen}</p>
+                )}
+                {guide.textFourteen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textFourteen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textFifteen && (
+                    <p>{guide.textFifteen}</p>
+                )}
+                {guide.textFifteen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textFifteen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textSixteen && (
+                    <p>{guide.textSixteen}</p>
+                )}
+                {guide.textSixteen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textSixteen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textSeventeen && (
+                    <p>{guide.textSeventeen}</p>
+                )}
+                {guide.textSeventeen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textSeventeen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textEighteen && (
+                    <p>{guide.textEighteen}</p>
+                )}
+                {guide.textEighteen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textEighteen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textNineteen && (
+                    <p>{guide.textNineteen}</p>
+                )}
+                {guide.textNineteen && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textNineteen}</SyntaxHighlighter>
+                    </pre>
+                )}
+                {guide.textTwenty && (
+                    <p>{guide.textTwenty}</p>
+                )}
+                {guide.textTwenty && (
+                    <pre>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textTwenty}</SyntaxHighlighter>
+                    </pre>
+                )}
             </div>
         );
     }
