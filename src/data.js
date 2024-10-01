@@ -6268,7 +6268,7 @@ end`,
     }
 },`,
     textFourteen: 'Add these to your core\'s vehicle shared',
-    codeFourteen = `
+    codeFourteen: `
 foodcar4 = {
     name = 'The Perfect Pizza Delivery Panto',
     brand = 'Panto',
