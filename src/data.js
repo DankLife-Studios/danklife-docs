@@ -6267,8 +6267,47 @@ end`,
         image = "pizzathis_italianbelognese.png",
     }
 },`,
-    textFourteen: undefined,
-    codeFourteen: undefined,
+    textFourteen: 'Add these to your core\'s vehicle shared',
+    codeFourteen = `
+foodcar4 = {
+    name = 'The Perfect Pizza Delivery Panto',
+    brand = 'Panto',
+    class = 'Compact',
+    model = 'foodcar4',
+    price = 1000, -- Adjust as needed
+    category = 'pizza_delivery',
+    hash = \`foodcar4\`,
+},
+
+foodcar5 = {
+    name = 'The Perfect Pizza Delivery Car',
+    brand = 'Generic',
+    class = 'Sedan',
+    model = 'foodcar5',
+    price = 1200, -- Adjust as needed
+    category = 'pizza_delivery',
+    hash = \`foodcar5\`,
+},
+
+foodcar6 = {
+    name = '1978 Gyoza Mark VII Lite Hauler pickup',
+    brand = 'Gyoza',
+    class = 'Pickup',
+    model = 'foodcar6',
+    price = 1500, -- Adjust as needed
+    category = 'pizza_delivery',
+    hash = \`foodcar6\`,
+},
+
+foodbike = {
+    name = 'The Perfect Pizza Delivery Bike',
+    brand = 'Faggio',
+    class = 'Motorcycle',
+    model = 'foodbike',
+    price = 500, -- Adjust as needed
+    category = 'pizza_delivery',
+    hash = \`foodbike\`,
+},`,
     textFifteen: undefined,
     codeFifteen: undefined,
     textSixteen: undefined,
