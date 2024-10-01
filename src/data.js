@@ -628,31 +628,31 @@ export const INSTALLGUIDE = {
 },`,
         textTwo: 'Now add this to the qb-core/shared/job.lua',
         codeTwo: `['bahama'] = {
-  label = 'bahama Mama',
-  defaultDuty = true,
-  grades = {
-    ['0'] = {
-      name = 'Recruit',
-      payment = 150
+    label = 'bahama Mama',
+    defaultDuty = true,
+    grades = {
+        ['0'] = {
+          name = 'Recruit',
+          payment = 150
+        },
+        ['1'] = {
+          name = 'Crew Member',
+          payment = 165
+        },
+        ['2'] = {
+          name = 'Shift Manager',
+          payment = 175
+        },
+        ['3'] = {
+          name = 'Manager',
+          payment = 185
+        },
+        ['4'] = {
+          name = 'Owner',
+          isboss = true,
+          payment = 200
+        },
     },
-    ['1'] = {
-      name = 'Crew Member',
-      payment = 165
-    },
-    ['2'] = {
-      name = 'Shift Manager',
-      payment = 175
-    },
-    ['3'] = {
-      name = 'Manager',
-      payment = 185
-    },
-    ['4'] = {
-      name = 'Owner',
-      isboss = true,
-      payment = 200
-    },
-  },
 },`,
         textThree: 'You need add these to ConsumableEat in qb-smallresources',
         codeThree: `['bahama_mixednuts'] = math.random(15, 25),  
@@ -5246,111 +5246,111 @@ end)`,
         title: 'Place all images into your inventory\'s images folder',
         textOne: 'Qbcore & Qbox will both work with this format. You need these to add the items into the core\'s shared/items.lua',
         codeOne: `['pizzathis_milk'] 						= {['name'] = 'pizzathis_milk', 			 	['label'] = 'Milk',                             ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_milk.png', 				    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'milk'},
-	['pizzathis_vanillaextract'] 			= {['name'] = 'pizzathis_vanillaextract', 		['label'] = 'Vanilla Extract',                  ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_vanillaextract.png',         ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_tomatosauce'] 				= {['name'] = 'pizzathis_tomatosauce', 	    	['label'] = 'Tomato Sauce',                     ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_tomatosauce.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its tomato sauce'},
-	['pizzathis_garlic'] 					= {['name'] = 'pizzathis_garlic', 			 	['label'] = 'Garlic',                           ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_garlic.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_butter'] 					= {['name'] = 'pizzathis_butter', 			 	['label'] = 'Butter',                           ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_butter.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_soysauce'] 					= {['name'] = 'pizzathis_soysauce', 			['label'] = 'Soy Sauce',                        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_soysauce.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_cashews'] 					= {['name'] = 'pizzathis_cashews',             	['label'] = 'Cashews',                          ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_cashews.png',                ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_tomato'] 					= {['name'] = 'pizzathis_tomato',              	['label'] = 'Tamato',                           ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_tomato.png',                 ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Tomato'},
-	['pizzathis_apple'] 					= {['name'] = 'pizzathis_apple',               	['label'] = 'Apple',                            ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_apple.png',                  ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Apple'},
-	['pizzathis_orange'] 					= {['name'] = 'pizzathis_orange',              	['label'] = 'orange',                           ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_orange.png',                 ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'orange'},
-	['pizzathis_mozzarella'] 				= {['name'] = 'pizzathis_mozzarella', 			['label'] = 'Mozzarella', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_mozzarella.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its mozzarella cheese'},
-	['pizzathis_basil'] 					= {['name'] = 'pizzathis_basil', 			 	['label'] = 'Basil', 						    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_basil.png', 		            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its basil herb'},
-	['pizzathis_oregano'] 		 			= {['name'] = 'pizzathis_oregano', 				['label'] = 'Oregano', 					        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_oregano.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its oregano herb'},
-	['pizzathis_mushroom'] 					= {['name'] = 'pizzathis_mushroom', 			['label'] = 'Mushrooms',     				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_mushroom.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its the non trippy mushroom kind'},
-	['pizzathis_chilli'] 					= {['name'] = 'pizzathis_chilli', 				['label'] = 'chilli', 			                ['weight'] = 20, 		['type'] = 'item', 		['image'] = 'pizzathis_chilli.png',                 ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its chilli'},
-	['pizzathis_spicysalami'] 				= {['name'] = 'pizzathis_spicysalami', 			['label'] = 'Spicy Salami', 				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_spicysalami.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Spicy Salami'},
-	['pizzathis_parmesan'] 					= {['name'] = 'pizzathis_parmesan', 			['label'] = 'parmesan', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_parmesan.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Nice parmesan cheese'},
-	['pizzathis_onions'] 					= {['name'] = 'pizzathis_onions', 			 	['label'] = 'Onions', 						    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_onions.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'onions'},
-	['pizzathis_prosciutto'] 				= {['name'] = 'pizzathis_prosciutto', 			['label'] = 'Prosciutto', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_prosciutto.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Hmm nice juicy italian ham.'},
-	['pizzathis_artichokes'] 				= {['name'] = 'pizzathis_artichokes', 			['label'] = 'Artichokes',                       ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_artichokes.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Artichokes'},
-	['pizzathis_olives'] 					= {['name'] = 'pizzathis_olives', 			 	['label'] = 'Olives', 					        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_olives.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its chopped up olives'},
-	['pizzathis_aubergines'] 				= {['name'] = 'pizzathis_aubergines', 			['label'] = 'Eggplant', 				        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_aubergines.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its aubergines Aka eggplant'},
-	['pizzathis_zucchini'] 					= {['name'] = 'pizzathis_zucchini',            	['label'] = 'Chopped Zucchini',                 ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_zucchini.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its chopped zucchini'},
-	['pizzathis_roastedvegetables'] 		= {['name'] = 'pizzathis_roastedvegetables',   	['label'] = 'Roasted Vegetables',               ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_roastedvegetables.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Roasted Vegetables'},
-	['pizzathis_italianbelognese'] 			= {['name'] = 'pizzathis_italianbelognese',    	['label'] = 'Italian Belognese Sauce',          ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_italianbelognese.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Italian belognese sauce'},
-	['pizzathis_pasta'] 					= {['name'] = 'pizzathis_pasta', 				['label'] = 'Pasta', 			                ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_pasta.png',                  ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its pasta'},
-	['pizzathis_squidrings'] 				= {['name'] = 'pizzathis_squidrings',          	['label'] = 'Squid Rings', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_squidrings.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Squid Rings'},
-	['pizzathis_meatballs'] 				= {['name'] = 'pizzathis_meatballs',           	['label'] = 'HomeMade Meatballs', 			    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_meatballs.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Nice homemade meatballs'},
-	['pizzathis_vodkasauce'] 				= {['name'] = 'pizzathis_vodkasauce',          	['label'] = 'Vodka Sauce', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_vodkasauce.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its special Vodka Sauce'},
-	['pizzathis_shrimps'] 					= {['name'] = 'pizzathis_shrimps',             	['label'] = 'Shrimp', 					        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_shrimps.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its shrimp'},
-	['pizzathis_calamari'] 					= {['name'] = 'pizzathis_calamari', 		    ['label'] = 'Fresh Calamari', 				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_calamari.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its calamari'},
-	['pizzathis_clams']						= {['name'] = 'pizzathis_clams', 			 	['label'] = 'Fresh Clams', 	                    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_clams.png', 	                ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its clams'},
-	['pizzathis_margherita'] 				= {['name'] = 'pizzathis_margherita', 			['label'] = 'Margherita Pizza',                 ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_margherita.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a margherita Pizza'},
-	['pizzathis_prosciuttoefunghi'] 		= {['name'] = 'pizzathis_prosciuttoefunghi', 	['label'] = 'Prosciutto e Funghi Pizza',        ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_prosciuttoefunghi.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a Prosciutto Pizza'},
-	['pizzathis_marinara'] 					= {['name'] = 'pizzathis_marinara', 			['label'] = 'marinara Pizza', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_marinara.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a marinara Pizza'},
-	['pizzathis_diavola'] 					= {['name'] = 'pizzathis_diavola', 				['label'] = 'Diavola Pizza', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_diavola.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a diavola pizza'},
-	['pizzathis_capricciosa'] 				= {['name'] = 'pizzathis_capricciosa', 			['label'] = 'Capricciosa Pizza', 			    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_capricciosa.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a capricciosa Pizza'},
-	['pizzathis_vegetariana'] 				= {['name'] = 'pizzathis_vegetariana', 			['label'] = 'Vegetariana Pizza', 			    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_vegetariana.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a vegetariana pizza'},
-	['pizzathis_bolognese'] 				= {['name'] = 'pizzathis_bolognese', 			['label'] = 'Bolognese Pasta', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_bolognese.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a bolognese pasta'},
-	['pizzathis_calamarimarinara'] 			= {['name'] = 'pizzathis_calamarimarinara', 	['label'] = 'Calamari Marinara Pasta', 		    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_calamarimarinara.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a calamari marinara pasta'},
-	['pizzathis_homemademeatball'] 			= {['name'] = 'pizzathis_homemademeatball', 	['label'] = 'Homemade Meatball Pasta', 		    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_homemademeatball.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a homemade meatball pasta'},
-	['pizzathis_allavodka'] 				= {['name'] = 'pizzathis_allavodka', 			['label'] = 'Alla Vodka Pasta', 			    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_allavodka.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a alla vodka pasta'},
-	['pizzathis_pescatore'] 				= {['name'] = 'pizzathis_pescatore', 			['label'] = 'Pescatore Pasta', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_pescatore.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a pescatore pasta'},
-	['pizzathis_tiramisu'] 					= {['name'] = 'pizzathis_tiramisu', 			['label'] = 'Tiramisu Dessert',                 ['weight'] = 350, 		['type'] = 'item', 		['image'] = 'pizzathis_tiramisu.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its tiramisu'},
-	['pizzathis_chocolategelato'] 			= {['name'] = 'pizzathis_chocolategelato',     	['label'] = 'Chocolate Gelato on a Cone',       ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'pizzathis_chocolategelato.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Chocolate Gelato on a Cone'},
-	['pizzathis_vanillagelato'] 			= {['name'] = 'pizzathis_vanillagelato',       	['label'] = 'Vanilla Gelato on a Cone',         ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'pizzathis_vanillagelato.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Vanilla Gelato on a Cone'},
-	['pizzathis_freshfruits'] 				= {['name'] = 'pizzathis_freshfruits',         	['label'] = 'Fresh Fruit Cup', 				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_freshfruits.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A healthy snack!'},
-	['pizzathis_ticket'] 					= {['name'] = 'pizzathis_ticket', 			 	['label'] = 'Receipt', 	     				    ['weight'] = 150, 		['type'] = 'item', 		['image'] = 'pizzathis_ticket.png', 	            ['unique'] = false,   	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Here is an order that needs to be made quickly!'},
-	['pizzathis_pizzapallet'] 				= {['name'] = 'pizzathis_pizzapallet',         	['label'] = 'Pizza Ingredients Pallet',         ['weight'] = 500, 	    ['type'] = 'item', 		['image'] = 'pizzathis_pallet.png', 	            ['unique'] = false,   	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'This box is filled with Pizza This ingredients.'},
-	['pizzathis_pastapallet'] 				= {['name'] = 'pizzathis_pastapallet',         	['label'] = 'Pasta Ingredients Pallet',         ['weight'] = 500, 	    ['type'] = 'item', 		['image'] = 'pizzathis_pallet.png', 	            ['unique'] = false,   	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'This box is filled with Pizza This ingredients.'},
-	['pizzathis_emptybag'] 	 				= {['name'] = 'pizzathis_emptybag', 	        ['label'] = 'Empty Delivery Bag', 		        ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'pizzathis_emptybag.png',       		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Empty Pizza This delivery bag'},
-	['pizzathis_deliverybag'] 				= {['name'] = 'pizzathis_deliverybag', 	    	['label'] = 'Pizza This Delivery Bag', 		    ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'pizzathis_deliverybag.png',    		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Pizza This delivery bag'},
-	['pizzathis_capricciosaslices'] 		= {['name'] = 'pizzathis_capricciosaslices',   	['label'] = 'Capriccosa Slices',	 		    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_capricciosaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Capriccosa Slices'},
-	['pizzathis_diavolaslices'] 			= {['name'] = 'pizzathis_diavolaslices',       	['label'] = 'Diavola Slices',	 			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_diavolaslices.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Diavola Slices'},
-	['pizzathis_marinaraslices'] 			= {['name'] = 'pizzathis_marinaraslices',      	['label'] = 'Marinara Slices',	 			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_marinaraslices.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Marinara Slices'},
-	['pizzathis_margheritaslices']			= {['name'] = 'pizzathis_margheritaslices',    	['label'] = 'Margherita Slices',	 		    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_margheritaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_prosciuttioslices'] 		= {['name'] = 'pizzathis_prosciuttioslices',   	['label'] = 'Prosciuttio E Funghi Slices',	    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_proscuttioslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-	['pizzathis_vegetarianaslices'] 		= {['name'] = 'pizzathis_vegetarianaslices',   	['label'] = 'Vegetariana Slices',			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_vegetarianaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-    `,
+['pizzathis_vanillaextract'] 			= {['name'] = 'pizzathis_vanillaextract', 		['label'] = 'Vanilla Extract',                  ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_vanillaextract.png',         ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_tomatosauce'] 				= {['name'] = 'pizzathis_tomatosauce', 	    	['label'] = 'Tomato Sauce',                     ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_tomatosauce.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its tomato sauce'},
+['pizzathis_garlic'] 					= {['name'] = 'pizzathis_garlic', 			 	['label'] = 'Garlic',                           ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_garlic.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_butter'] 					= {['name'] = 'pizzathis_butter', 			 	['label'] = 'Butter',                           ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_butter.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_soysauce'] 					= {['name'] = 'pizzathis_soysauce', 			['label'] = 'Soy Sauce',                        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_soysauce.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_cashews'] 					= {['name'] = 'pizzathis_cashews',             	['label'] = 'Cashews',                          ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_cashews.png',                ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_tomato'] 					= {['name'] = 'pizzathis_tomato',              	['label'] = 'Tamato',                           ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_tomato.png',                 ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Tomato'},
+['pizzathis_apple'] 					= {['name'] = 'pizzathis_apple',               	['label'] = 'Apple',                            ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_apple.png',                  ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Apple'},
+['pizzathis_orange'] 					= {['name'] = 'pizzathis_orange',              	['label'] = 'orange',                           ['weight'] = 30,        ['type'] = 'item',      ['image'] = 'pizzathis_orange.png',                 ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'orange'},
+['pizzathis_mozzarella'] 				= {['name'] = 'pizzathis_mozzarella', 			['label'] = 'Mozzarella', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_mozzarella.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its mozzarella cheese'},
+['pizzathis_basil'] 					= {['name'] = 'pizzathis_basil', 			 	['label'] = 'Basil', 						    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_basil.png', 		            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its basil herb'},
+['pizzathis_oregano'] 		 			= {['name'] = 'pizzathis_oregano', 				['label'] = 'Oregano', 					        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_oregano.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its oregano herb'},
+['pizzathis_mushroom'] 					= {['name'] = 'pizzathis_mushroom', 			['label'] = 'Mushrooms',     				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_mushroom.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its the non trippy mushroom kind'},
+['pizzathis_chilli'] 					= {['name'] = 'pizzathis_chilli', 				['label'] = 'chilli', 			                ['weight'] = 20, 		['type'] = 'item', 		['image'] = 'pizzathis_chilli.png',                 ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its chilli'},
+['pizzathis_spicysalami'] 				= {['name'] = 'pizzathis_spicysalami', 			['label'] = 'Spicy Salami', 				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_spicysalami.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Spicy Salami'},
+['pizzathis_parmesan'] 					= {['name'] = 'pizzathis_parmesan', 			['label'] = 'parmesan', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_parmesan.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Nice parmesan cheese'},
+['pizzathis_onions'] 					= {['name'] = 'pizzathis_onions', 			 	['label'] = 'Onions', 						    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_onions.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'onions'},
+['pizzathis_prosciutto'] 				= {['name'] = 'pizzathis_prosciutto', 			['label'] = 'Prosciutto', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_prosciutto.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Hmm nice juicy italian ham.'},
+['pizzathis_artichokes'] 				= {['name'] = 'pizzathis_artichokes', 			['label'] = 'Artichokes',                       ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_artichokes.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Artichokes'},
+['pizzathis_olives'] 					= {['name'] = 'pizzathis_olives', 			 	['label'] = 'Olives', 					        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_olives.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its chopped up olives'},
+['pizzathis_aubergines'] 				= {['name'] = 'pizzathis_aubergines', 			['label'] = 'Eggplant', 				        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_aubergines.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its aubergines Aka eggplant'},
+['pizzathis_zucchini'] 					= {['name'] = 'pizzathis_zucchini',            	['label'] = 'Chopped Zucchini',                 ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_zucchini.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its chopped zucchini'},
+['pizzathis_roastedvegetables'] 		= {['name'] = 'pizzathis_roastedvegetables',   	['label'] = 'Roasted Vegetables',               ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_roastedvegetables.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Roasted Vegetables'},
+['pizzathis_italianbelognese'] 			= {['name'] = 'pizzathis_italianbelognese',    	['label'] = 'Italian Belognese Sauce',          ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_italianbelognese.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Italian belognese sauce'},
+['pizzathis_pasta'] 					= {['name'] = 'pizzathis_pasta', 				['label'] = 'Pasta', 			                ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_pasta.png',                  ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its pasta'},
+['pizzathis_squidrings'] 				= {['name'] = 'pizzathis_squidrings',          	['label'] = 'Squid Rings', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_squidrings.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Squid Rings'},
+['pizzathis_meatballs'] 				= {['name'] = 'pizzathis_meatballs',           	['label'] = 'HomeMade Meatballs', 			    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_meatballs.png', 		        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Nice homemade meatballs'},
+['pizzathis_vodkasauce'] 				= {['name'] = 'pizzathis_vodkasauce',          	['label'] = 'Vodka Sauce', 					    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_vodkasauce.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its special Vodka Sauce'},
+['pizzathis_shrimps'] 					= {['name'] = 'pizzathis_shrimps',             	['label'] = 'Shrimp', 					        ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_shrimps.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its shrimp'},
+['pizzathis_calamari'] 					= {['name'] = 'pizzathis_calamari', 		    ['label'] = 'Fresh Calamari', 				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_calamari.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its calamari'},
+['pizzathis_clams']						= {['name'] = 'pizzathis_clams', 			 	['label'] = 'Fresh Clams', 	                    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_clams.png', 	                ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'its clams'},
+['pizzathis_margherita'] 				= {['name'] = 'pizzathis_margherita', 			['label'] = 'Margherita Pizza',                 ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_margherita.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a margherita Pizza'},
+['pizzathis_prosciuttoefunghi'] 		= {['name'] = 'pizzathis_prosciuttoefunghi', 	['label'] = 'Prosciutto e Funghi Pizza',        ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_prosciuttoefunghi.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a Prosciutto Pizza'},
+['pizzathis_marinara'] 					= {['name'] = 'pizzathis_marinara', 			['label'] = 'marinara Pizza', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_marinara.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a marinara Pizza'},
+['pizzathis_diavola'] 					= {['name'] = 'pizzathis_diavola', 				['label'] = 'Diavola Pizza', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_diavola.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a diavola pizza'},
+['pizzathis_capricciosa'] 				= {['name'] = 'pizzathis_capricciosa', 			['label'] = 'Capricciosa Pizza', 			    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_capricciosa.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a capricciosa Pizza'},
+['pizzathis_vegetariana'] 				= {['name'] = 'pizzathis_vegetariana', 			['label'] = 'Vegetariana Pizza', 			    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_vegetariana.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a vegetariana pizza'},
+['pizzathis_bolognese'] 				= {['name'] = 'pizzathis_bolognese', 			['label'] = 'Bolognese Pasta', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_bolognese.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a bolognese pasta'},
+['pizzathis_calamarimarinara'] 			= {['name'] = 'pizzathis_calamarimarinara', 	['label'] = 'Calamari Marinara Pasta', 		    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_calamarimarinara.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a calamari marinara pasta'},
+['pizzathis_homemademeatball'] 			= {['name'] = 'pizzathis_homemademeatball', 	['label'] = 'Homemade Meatball Pasta', 		    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_homemademeatball.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a homemade meatball pasta'},
+['pizzathis_allavodka'] 				= {['name'] = 'pizzathis_allavodka', 			['label'] = 'Alla Vodka Pasta', 			    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_allavodka.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a alla vodka pasta'},
+['pizzathis_pescatore'] 				= {['name'] = 'pizzathis_pescatore', 			['label'] = 'Pescatore Pasta', 				    ['weight'] = 750, 		['type'] = 'item', 		['image'] = 'pizzathis_pescatore.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its a pescatore pasta'},
+['pizzathis_tiramisu'] 					= {['name'] = 'pizzathis_tiramisu', 			['label'] = 'Tiramisu Dessert',                 ['weight'] = 350, 		['type'] = 'item', 		['image'] = 'pizzathis_tiramisu.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its tiramisu'},
+['pizzathis_chocolategelato'] 			= {['name'] = 'pizzathis_chocolategelato',     	['label'] = 'Chocolate Gelato on a Cone',       ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'pizzathis_chocolategelato.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Chocolate Gelato on a Cone'},
+['pizzathis_vanillagelato'] 			= {['name'] = 'pizzathis_vanillagelato',       	['label'] = 'Vanilla Gelato on a Cone',         ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'pizzathis_vanillagelato.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its Vanilla Gelato on a Cone'},
+['pizzathis_freshfruits'] 				= {['name'] = 'pizzathis_freshfruits',         	['label'] = 'Fresh Fruit Cup', 				    ['weight'] = 30, 		['type'] = 'item', 		['image'] = 'pizzathis_freshfruits.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A healthy snack!'},
+['pizzathis_ticket'] 					= {['name'] = 'pizzathis_ticket', 			 	['label'] = 'Receipt', 	     				    ['weight'] = 150, 		['type'] = 'item', 		['image'] = 'pizzathis_ticket.png', 	            ['unique'] = false,   	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Here is an order that needs to be made quickly!'},
+['pizzathis_pizzapallet'] 				= {['name'] = 'pizzathis_pizzapallet',         	['label'] = 'Pizza Ingredients Pallet',         ['weight'] = 500, 	    ['type'] = 'item', 		['image'] = 'pizzathis_pallet.png', 	            ['unique'] = false,   	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'This box is filled with Pizza This ingredients.'},
+['pizzathis_pastapallet'] 				= {['name'] = 'pizzathis_pastapallet',         	['label'] = 'Pasta Ingredients Pallet',         ['weight'] = 500, 	    ['type'] = 'item', 		['image'] = 'pizzathis_pallet.png', 	            ['unique'] = false,   	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'This box is filled with Pizza This ingredients.'},
+['pizzathis_emptybag'] 	 				= {['name'] = 'pizzathis_emptybag', 	        ['label'] = 'Empty Delivery Bag', 		        ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'pizzathis_emptybag.png',       		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Empty Pizza This delivery bag'},
+['pizzathis_deliverybag'] 				= {['name'] = 'pizzathis_deliverybag', 	    	['label'] = 'Pizza This Delivery Bag', 		    ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'pizzathis_deliverybag.png',    		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Pizza This delivery bag'},
+['pizzathis_capricciosaslices'] 		= {['name'] = 'pizzathis_capricciosaslices',   	['label'] = 'Capriccosa Slices',	 		    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_capricciosaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Capriccosa Slices'},
+['pizzathis_diavolaslices'] 			= {['name'] = 'pizzathis_diavolaslices',       	['label'] = 'Diavola Slices',	 			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_diavolaslices.png', 		    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Diavola Slices'},
+['pizzathis_marinaraslices'] 			= {['name'] = 'pizzathis_marinaraslices',      	['label'] = 'Marinara Slices',	 			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_marinaraslices.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Marinara Slices'},
+['pizzathis_margheritaslices']			= {['name'] = 'pizzathis_margheritaslices',    	['label'] = 'Margherita Slices',	 		    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_margheritaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_prosciuttioslices'] 		= {['name'] = 'pizzathis_prosciuttioslices',   	['label'] = 'Prosciuttio E Funghi Slices',	    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_proscuttioslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_vegetarianaslices'] 		= {['name'] = 'pizzathis_vegetarianaslices',   	['label'] = 'Vegetariana Slices',			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_vegetarianaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+`,
         textTwo: 'Now add this to the cores\'s shared/jobs.lua',
         codeTwo: `THIS IS FOR QBCORE:
-    ['pizzathis'] = {
-      label = 'Pizza This',
-      defaultDuty = true,
-      offDutyPay = true,
-      grades = {
-          ['0'] = {
-              name = 'Recruit',
-              payment = 175
-          },
-          ['1'] = {
-              name = 'Crew Member',
-              payment = 185
-          },
-          ['2'] = {
-              name = 'Shift Manager',
-              payment = 195
-          },
-          ['3'] = {
-              name = 'Manager',
-              payment = 205
-          },
-          ['4'] = {
-              name = 'Owner',
-              isboss = true,
-              payment = 215
-          },
-      },
-  },
-
-
-  THIS IS FOR QBOX:
-    ['pizzathis'] = {
-        label = 'Pizza This Pizzeria',
-        defaultDuty = true,
-        offDutyPay = true,
-        grades = {
-            [0] = { name = 'Recruit', payment = 500 },
-            [1] = { name = 'Crew Member', payment = 750 },
-            [2] = { name = 'Shift Manager', payment = 1000 },
-            [3] = { name = 'Manager', payment = 1100 },
-            [4] = { name = 'Owner', isboss = true, bankAuth = true, payment = 1200 },
+['pizzathis'] = {
+    label = 'Pizza This',
+    defaultDuty = true,
+    offDutyPay = true,
+    grades = {
+        ['0'] = {
+            name = 'Recruit',
+            payment = 175
+        },
+        ['1'] = {
+            name = 'Crew Member',
+            payment = 185
+        },
+        ['2'] = {
+            name = 'Shift Manager',
+            payment = 195
+        },
+        ['3'] = {
+            name = 'Manager',
+            payment = 205
+        },
+        ['4'] = {
+            name = 'Owner',
+            isboss = true,
+            payment = 215
         },
     },
-    `,
-        textThree: 'For Qbcore only: You need add these to ConsumableEat in qb-smallresources/config.lua',
+},
+
+
+THIS IS FOR QBOX:
+['pizzathis'] = {
+    label = 'Pizza This Pizzeria',
+    defaultDuty = true,
+    offDutyPay = true,
+    grades = {
+        [0] = { name = 'Recruit', payment = 500 },
+        [1] = { name = 'Crew Member', payment = 750 },
+        [2] = { name = 'Shift Manager', payment = 1000 },
+        [3] = { name = 'Manager', payment = 1100 },
+        [4] = { name = 'Owner', isboss = true, bankAuth = true, payment = 1200 },
+    },
+},
+`,
+        textThree: 'FOR QBCORE ONLY: You need add these to ConsumableEat in qb-smallresources/config.lua',
         codeThree: `['tiramisu'] = math.random(15, 22),
 ['pizzathis_chocolategelato'] = math.random(7,10),
 ['pizzathis_vanillagelato'] = math.random(7,10),
@@ -5360,25 +5360,25 @@ end)`,
 ['pizzathis_homemademeatball'] = math.random(30, 42),
 ['pizzathis_allavodka'] = math.random(30, 42),
 ['pizzathis_pescatore'] = math.random(30, 42), `,
-        textFour: 'You need add these in qb-smallresources/config.lua',
+        textFour: 'FOR QBCORE ONLY: You need add these in qb-smallresources/config.lua',
         codeFour: `Config.ConsumablesPizzaThisSlices = {
-  ['pizzathis_margheritaslices'] = math.random(30, 54),
-  ['pizzathis_marinaraslices'] = math.random(35, 54),
-  ['pizzathis_prosciuttioslices'] = math.random(35, 54),
-  ['pizzathis_diavolaslices'] = math.random(35, 54),
-  ['pizzathis_capricciosaslices'] = math.random(35, 54),
-  ['pizzathis_vegetarianaslices'] = math.random(35, 54),
+    ['pizzathis_margheritaslices'] = math.random(30, 54),
+    ['pizzathis_marinaraslices'] = math.random(35, 54),
+    ['pizzathis_prosciuttioslices'] = math.random(35, 54),
+    ['pizzathis_diavolaslices'] = math.random(35, 54),
+    ['pizzathis_capricciosaslices'] = math.random(35, 54),
+    ['pizzathis_vegetarianaslices'] = math.random(35, 54),
 }
 
 Config.ConsumablesPizzaThisPizza = {
-  ['pizzathis_margherita'] = math.random(30, 54),
-  ['pizzathis_marinara'] = math.random(35, 54),
-  ['pizzathis_prosciuttoefunghi'] = math.random(35, 54),
-  ['pizzathis_diavola'] = math.random(35, 54),
-  ['pizzathis_capricciosa'] = math.random(35, 54),
-  ['pizzathis_vegetariana'] = math.random(35, 54),
+    ['pizzathis_margherita'] = math.random(30, 54),
+    ['pizzathis_marinara'] = math.random(35, 54),
+    ['pizzathis_prosciuttoefunghi'] = math.random(35, 54),
+    ['pizzathis_diavola'] = math.random(35, 54),
+    ['pizzathis_capricciosa'] = math.random(35, 54),
+    ['pizzathis_vegetariana'] = math.random(35, 54),
 }`,
-        textFive: 'For Qbcore only: Add the following code to qb-smallresources/server/consumables.lua',
+        textFive: 'FOR QBCORE ONLY: Add the following code to qb-smallresources/server/consumables.lua',
         codeFive: `for k,_ in pairs(Config.ConsumablesPizzaThisSlices) do
     QBCore.Functions.CreateUseableItem(k, function(source, item)
       local Player = QBCore.Functions.GetPlayer(source)
@@ -5394,9 +5394,9 @@ for k,_ in pairs(Config.ConsumablesPizzaThisPizza) do
       TriggerClientEvent('consumables:client:EatFullPizza', source, item.name)
     end)
 end`,
-        textSix: 'For Qbcore only: Add the following code to qb-smallresources/client/consumables.lua',
+        textSix: 'FOR QBCORE ONLY: Add the following code to qb-smallresources/client/consumables.lua',
         codeSix: `RegisterNetEvent('consumables:client:EatPizzaSlice', function(itemName)
-  EatItem(itemName, false, 'pizzaslice')
+    EatItem(itemName, false, 'pizzaslice')
 end)
   
 RegisterNetEvent('consumables:client:EatFullPizza', function(itemName)
@@ -5404,128 +5404,128 @@ RegisterNetEvent('consumables:client:EatFullPizza', function(itemName)
 end)
   
 local function EatItem(itemName, isFullPizza, animation)
-  local hungerValue = isFullPizza and Config.ConsumablesPizzaThisPizza[itemName] or Config.ConsumablesPizzaThisSlices[itemName]
-  TriggerEvent('animations:client:EmoteCommandStart', {animation})
-  QBCore.Functions.Progressbar('eat_something', 'Eating..', 5000, false, true, {
-      disableMovement = false,
-      disableCarMovement = false,
-      disableMouse = false,
-      disableCombat = true,
-  }, {}, {}, {}, function() -- Done
-      TriggerEvent('animations:client:EmoteCommandStart', {'c'})
-      TriggerServerEvent('consumables:server:addHunger', QBCore.Functions.GetPlayerData().metadata['hunger'] + hungerValue)
-  end, function() -- Cancel
-      TriggerEvent('animations:client:EmoteCommandStart', {'c'})
-      QBCore.Functions.Notify('Cancelled..', 'error')
-  end, 'fa-solid fa-burger')
+    local hungerValue = isFullPizza and Config.ConsumablesPizzaThisPizza[itemName] or Config.ConsumablesPizzaThisSlices[itemName]
+    TriggerEvent('animations:client:EmoteCommandStart', {animation})
+    QBCore.Functions.Progressbar('eat_something', 'Eating..', 5000, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+        disableMouse = false,
+        disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent('animations:client:EmoteCommandStart', {'c'})
+        TriggerServerEvent('consumables:server:addHunger', QBCore.Functions.GetPlayerData().metadata['hunger'] + hungerValue)
+    end, function() -- Cancel
+        TriggerEvent('animations:client:EmoteCommandStart', {'c'})
+        QBCore.Functions.Notify('Cancelled..', 'error')
+    end, 'fa-solid fa-burger')
 end`,
-        textSeven: 'For Qbcore only: You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
+        textSeven: 'FOR QBCORE ONLY: You need add this in qb-management/client/cl_config.lua under Config.BossMenus  and you also have to add the job to the qb-management database table.',
         codeSeven: `['pizzathis'] = {
-  vector3(796.52215, -749.3094, 31.265884),
+    vector3(796.52215, -749.3094, 31.265884),
 },`,
-        textEight: 'For Qbcore only: You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
+        textEight: 'FOR QBCORE ONLY: You need add this in qb-management/client/cl_config.lua under Config.BossMenuszone',
         codeEight: `['pizzathis'] = {
-  { coords = vector3(796.46, -748.94, 31.265884), length = 0.38, width = 0.55, heading = 351.0, minZ = 30.58, maxZ = 31.68 }, -- DONE
+    { coords = vector3(796.46, -748.94, 31.265884), length = 0.38, width = 0.55, heading = 351.0, minZ = 30.58, maxZ = 31.68 }, -- DONE
 },`,
-        textNine: 'For Qbcore only: Add this under qb-shop/config.lua under products -- this is for the drinks',
+        textNine: 'FOR QBCORE ONLY: Add this under qb-shop/config.lua under products -- this is for the drinks',
         codeNine: `['pizzathis'] = {
-  [1] = {
-    name = 'coffee',
-    price = 5,
-    amount = 500,
-    info = {},
-    type = 'item',
-    slot = 1,
-  },
-  [2] = {
-    name = 'water_bottle',
-    price = 3,
-    amount = 50,
-    info = {},
-    type = 'item',
-    slot = 2,
-  },
-  [3] = {
-    name = 'kurkakola',
-    price = 3,
-    amount = 50,
-    info = {},
-    type = 'item',
-    slot = 3,
-  },
-  [4] = {
-    name = 'beer',
-    price = 7,
-    amount = 50,
-    info = {},
-    type = 'item',
-    slot = 4,
-  },
-  [5] = {
-    name = 'whiskey',
-    price = 10,
-    amount = 50,
-    info = {},
-    type = 'item',
-    slot = 5,
-  },
-  [6] = {
-    name = 'vodka',
-    price = 10,
-    amount = 50,
-    info = {},
-    type = 'item',
-    slot = 6,
-  },
-  [7] = {
-    name = 'pizzathis_emptybag',
-    price = 50,
-    amount = 50,
-    info = {},
-    type = 'item',
-    slot = 7,
-  },
-  [8] = {
-    name = 'pizzathis_pizzabox',
-    price = 10,
-    amount = 1000,
-    info = {},
-    type = 'item',
-    slot = 8,
-  },
+    [1] = {
+        name = 'coffee',
+        price = 5,
+        amount = 500,
+        info = {},
+        type = 'item',
+        slot = 1,
+    },
+    [2] = {
+        name = 'water_bottle',
+        price = 3,
+        amount = 50,
+        info = {},
+        type = 'item',
+        slot = 2,
+    },
+    [3] = {
+        name = 'kurkakola',
+        price = 3,
+        amount = 50,
+        info = {},
+        type = 'item',
+        slot = 3,
+    },
+    [4] = {
+        name = 'beer',
+        price = 7,
+        amount = 50,
+        info = {},
+        type = 'item',
+        slot = 4,
+    },
+    [5] = {
+        name = 'whiskey',
+        price = 10,
+        amount = 50,
+        info = {},
+        type = 'item',
+        slot = 5,
+    },
+    [6] = {
+        name = 'vodka',
+        price = 10,
+        amount = 50,
+        info = {},
+        type = 'item',
+        slot = 6,
+    },
+    [7] = {
+        name = 'pizzathis_emptybag',
+        price = 50,
+        amount = 50,
+        info = {},
+        type = 'item',
+        slot = 7,
+    },
+    [8] = {
+        name = 'pizzathis_pizzabox',
+        price = 10,
+        amount = 1000,
+        info = {},
+        type = 'item',
+        slot = 8,
+    },
 },
     `,
-        textTen: 'For Qbcore only: Add this under qb-shop/config.lua under Config.Locations',
+        textTen: 'FOR QBCORE ONLY: Add this under qb-shop/config.lua under Config.Locations',
         codeTen: `['pizzathis'] = {
     label = 'Pizza This',
     type = 'pizzathis',
-  ['coords'] = vector3(813.5108, -749.3524, 26.780836),
-  ['ped'] = '',
-  ['scenario'] = '',
-  ['radius'] = 1.5,
-  ['targeticon'] = 'fas fa-shopping-basket',
-  ['targetLabel'] = 'Open Shop',
-  ['products'] = Config.Products['pizzathis'],
-  ['showblip'] = false,
-  ['blipsprite'] = 267,
-  ['blipcolor'] = 25
+    ['coords'] = vector3(813.5108, -749.3524, 26.780836),
+    ['ped'] = '',
+    ['scenario'] = '',
+    ['radius'] = 1.5,
+    ['targeticon'] = 'fas fa-shopping-basket',
+    ['targetLabel'] = 'Open Shop',
+    ['products'] = Config.Products['pizzathis'],
+    ['showblip'] = false,
+    ['blipsprite'] = 267,
+    ['blipcolor'] = 25
 },`,
-    textEleven: 'For Qbox only: You need add this in qbx_management config/server.lua',
+    textEleven: 'FOR QBOX ONLY: You need add this in qbx_management config/server.lua',
     codeEleven: `pizzathis = {
-            coords = vec3(796.46, -748.94, 31.26),
-            size = vec3(1.5, 1.5, 1.5),
-            rotation = 351.0,
-            type = 'job',
-        },`,
+    coords = vec3(796.46, -748.94, 31.26),
+    size = vec3(1.5, 1.5, 1.5),
+    rotation = 351.0,
+    type = 'job',
+},`,
 
-    textTwelve: 'For Ox Inventory only: in /modules/items/containers.lua add this code',
+    textTwelve: 'FOR OX INVENTORY ONLY: in /modules/items/containers.lua add this code',
     codeTwelve: `setContainerProperties('pizzathis_pizzabox', {
 	slots = 6,
 	maxWeight = 1000,
 	whitelist = { 'pizzathis_margheritaslices', 'pizzathis_marinaraslices', 'pizzathis_prosciuttioslices', 'pizzathis_diavolaslices', 'pizzathis_capricciosaslices', 'pizzathis_vegetarianaslices'}
 })`,
 
-    textThirteen: 'For Ox Inventory only: Add this in data/items.lua',
+    textThirteen: 'FOR OX INVENTORY ONLY: Add this in data/items.lua',
     codeThirteen: `["pizzathis_marinara"] = {
     label = "marinara Pizza",
     weight = 750,
@@ -6267,7 +6267,6 @@ end`,
         image = "pizzathis_italianbelognese.png",
     }
 },`,
-
     textFourteen: undefined,
     codeFourteen: undefined,
     textFifteen: undefined,

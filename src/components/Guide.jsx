@@ -108,81 +108,81 @@ export default function Guide() {
                 {guide.textEleven && (
                     <p>{guide.textEleven}</p>
                 )}
-                {guide.textEleven && (
+                {guide.codeEleven && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textEleven}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeEleven}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textTwelve && (
                     <p>{guide.textTwelve}</p>
                 )}
-                {guide.textTwelve && (
+                {guide.codeTwelve && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textTwelve}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeTwelve}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textThirteen && (
                     <p>{guide.textThirteen}</p>
                 )}
-                {guide.textThirteen && (
+                {guide.codeThirteen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textThirteen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeThirteen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textFourteen && (
                     <p>{guide.textFourteen}</p>
                 )}
-                {guide.textFourteen && (
+                {guide.codeFourteen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textFourteen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeFourteen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textFifteen && (
                     <p>{guide.textFifteen}</p>
                 )}
-                {guide.textFifteen && (
+                {guide.codeFifteen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textFifteen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeFifteen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textSixteen && (
                     <p>{guide.textSixteen}</p>
                 )}
-                {guide.textSixteen && (
+                {guide.codeSixteen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textSixteen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeSixteen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textSeventeen && (
                     <p>{guide.textSeventeen}</p>
                 )}
-                {guide.textSeventeen && (
+                {guide.codeSeventeen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textSeventeen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeSeventeen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textEighteen && (
                     <p>{guide.textEighteen}</p>
                 )}
-                {guide.textEighteen && (
+                {guide.codeEighteen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textEighteen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeEighteen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textNineteen && (
                     <p>{guide.textNineteen}</p>
                 )}
-                {guide.textNineteen && (
+                {guide.codeNineteen && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textNineteen}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeNineteen}</SyntaxHighlighter>
                     </pre>
                 )}
                 {guide.textTwenty && (
                     <p>{guide.textTwenty}</p>
                 )}
-                {guide.textTwenty && (
+                {guide.codeTwenty && (
                     <pre>
-                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.textTwenty}</SyntaxHighlighter>
+                        <SyntaxHighlighter language="lua" style={androidstudio}>{guide.codeTwenty}</SyntaxHighlighter>
                     </pre>
                 )}
             </div>
