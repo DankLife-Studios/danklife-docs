@@ -5336,7 +5336,8 @@ end)`,
 ['pizzathis_margheritaslices']			= {['name'] = 'pizzathis_margheritaslices',    	['label'] = 'Margherita Slices',	 		    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_margheritaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
 ['pizzathis_prosciuttioslices'] 		= {['name'] = 'pizzathis_prosciuttioslices',   	['label'] = 'Prosciuttio E Funghi Slices',	    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_proscuttioslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
 ['pizzathis_vegetarianaslices'] 		= {['name'] = 'pizzathis_vegetarianaslices',   	['label'] = 'Vegetariana Slices',			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_vegetarianaslices.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-['pizzathis_icecreamcone'] 		        = {['name'] = 'pizzathis_icecreamcone',   	    ['label'] = 'Ice Cream Cone',			        ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_icecreamcone.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_icecreamcone'] 		        = {['name'] = 'pizzathis_icecreamcone',   	    ['label'] = 'Ice Cream Cone',			        ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_icecreamcone.png', 	        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+['pizzathis_pizzabox'] 		            = {['name'] = 'pizzathis_pizzabox',   	        ['label'] = 'PizzaThis Pizza Box',			    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizzathis_pizzabox.png', 	            ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
 
 THIS IS FOR QBCORE:
 
@@ -5398,7 +5399,9 @@ pizzathis_marinaraslices 			= {name = 'pizzathis_marinaraslices',      	label = 
 pizzathis_margheritaslices			= {name = 'pizzathis_margheritaslices',    	label = 'Margherita Slices',	 		    weight = 100, 		type = 'item', 		image = 'pizzathis_margheritaslices.png', 	    unique = false, 	useable = true, 	shouldClose = true,    description = ''},
 pizzathis_prosciuttioslices 		= {name = 'pizzathis_prosciuttioslices',   	label = 'Prosciuttio E Funghi Slices',	    weight = 100, 		type = 'item', 		image = 'pizzathis_proscuttioslices.png', 	    unique = false, 	useable = true, 	shouldClose = true,    description = ''},
 pizzathis_vegetarianaslices 		= {name = 'pizzathis_vegetarianaslices',   	label = 'Vegetariana Slices',			    weight = 100, 		type = 'item', 		image = 'pizzathis_vegetarianaslices.png', 	    unique = false, 	useable = true, 	shouldClose = true,    description = ''},
-pizzathis_icecreamcone 		        = {name = 'pizzathis_icecreamcone',   	    label = 'Ice Cream Cone Slices',            weight = 100, 		type = 'item', 		image = 'pizzathis_icecreamcone.png', 	        unique = false, 	useable = true, 	shouldClose = true,    description = ''},`,
+pizzathis_icecreamcone 		        = {name = 'pizzathis_icecreamcone',   	    label = 'Ice Cream Cone Slices',            weight = 100, 		type = 'item', 		image = 'pizzathis_icecreamcone.png', 	        unique = false, 	useable = true, 	shouldClose = true,    description = ''},
+pizzathis_pizzabox 		            = {name = 'pizzathis_pizzabox',   	        label = 'PizzaThis Pizza Box',              weight = 100, 		type = 'item', 		image = 'pizzathis_pizzabox.png', 	            unique = false, 	useable = true, 	shouldClose = true,    description = ''},
+`,
         textTwo: 'Now add this to the cores\'s shared/jobs.lua',
         codeTwo: `THIS IS FOR QBCORE:
 ['pizzathis'] = {
@@ -5480,7 +5483,6 @@ THIS IS FOR QBOX:
     { name = 'whiskey',             price = 5, amount = 500 },
     { name = 'vodka',               price = 5, amount = 500 },
     { name = 'pizzathis_emptybag',  price = 5, amount = 500 },
-    { name = 'pizzathis_pizzabox',  price = 5, amount = 500 },
 },`,
         textSix: 'FOR QBCORE ONLY: Add this under qb-shop/config.lua under Config.Locations',
         codeSix: ` ['pizzathis'] = {
