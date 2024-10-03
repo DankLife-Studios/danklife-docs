@@ -6297,8 +6297,18 @@ foodbike = {
 { model = 'foodcar6', name = 'Food Delivery 1978 Mark VII', brand = 'Rebel', price = 1500, category = 'pizza_delivery', type = 'automobile', shop = 'pdm' },
 { model = 'foodbike', name = 'Food Delivery Moped', brand = 'Faggio', price = 500, category = 'pizza_delivery', type = 'motorcycle', shop = 'pdm' },
 { model = 'foodbike2', name = 'Food Delivery Moped Classic', brand = 'Faggio', price = 1000, category = 'pizza_delivery', type = 'motorcycle', shop = 'pdm' },`,
-        textEleven: undefined,
-        codeEleven: undefined,
+        textEleven: 'You dont need to do for OX Inventory: Add this in your inventory metadata',
+        codeEleven: `} else if (itemData.name == "pizzathis_pizzabox") {
+$(".item-info-title").html("<p>" + label + "</p>");
+$(".item-info-description").html(
+    "<p><strong>ID: </strong><span>" +
+    itemData.info.Id +
+    "</span></p><p><strong>Weight: </strong><span>" +
+    itemData.info.weight +
+    "</span></p><p><strong>Slots: </strong><span>" +
+    itemData.info.slots +
+    "</span></p>"
+);`,
         textTwelve: undefined,
         codeTwelve: undefined,
         textThirteen: undefined,
